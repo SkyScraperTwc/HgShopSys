@@ -9,8 +9,8 @@ import indi.twc.hg.dao.impl.BrandDaoImpl;
 import indi.twc.hg.dao.impl.BrandDaoImpl.Brand_Sql;
 import indi.twc.hg.entity.Brand;
 import indi.twc.hg.entity.PageData;
-import indi.twc.hg.common.mapper.BrandRowMapper;
 import indi.twc.hg.service.IBrandService;
+import indi.twc.hg.utils.mapper.BrandRowMapper;
 
 public class BrandServiceImpl extends BaseServiceImpl implements IBrandService {
 	private BrandDaoImpl brandDao = new BrandDaoImpl();

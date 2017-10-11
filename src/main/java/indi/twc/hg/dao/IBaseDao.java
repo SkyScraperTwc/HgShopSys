@@ -1,10 +1,10 @@
 package indi.twc.hg.dao;
 
+import indi.twc.hg.utils.mapper.RowMapper;
+
 import java.sql.SQLException;
 import java.util.LinkedHashMap;
 import java.util.List;
-
-import indi.twc.hg.common.mapper.RowMapper;
 
 public interface IBaseDao {
 	

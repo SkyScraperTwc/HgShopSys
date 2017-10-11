@@ -6,9 +6,9 @@ import java.util.List;
 
 import indi.twc.hg.dao.ICategoryDao;
 import indi.twc.hg.entity.Category;
-import indi.twc.hg.common.mapper.CategoryRowMapper;
 import indi.twc.hg.utils.JdbcUtils;
 import indi.twc.hg.utils.ShowSql;
+import indi.twc.hg.utils.mapper.CategoryRowMapper;
 
 public class CategoryDaoImpl extends BaseDaoImpl implements ICategoryDao {
 	public static class Cg_Sql{ 
@@ -22,7 +22,6 @@ public class CategoryDaoImpl extends BaseDaoImpl implements ICategoryDao {
 	}
 	/** 
 	 * 保存分类 
-	 * @param p 
 	 * @throws Exception
 	 */  
 	@Override  
@@ -41,7 +40,6 @@ public class CategoryDaoImpl extends BaseDaoImpl implements ICategoryDao {
 	} 
 	/** 
 	 * 删除分类 
-	 * @param p 
 	 * @throws Exception
 	 */ 
 	@Override
@@ -65,7 +63,6 @@ public class CategoryDaoImpl extends BaseDaoImpl implements ICategoryDao {
 	}
 	/** 
 	 * 修改分类 
-	 * @param p 
 	 * @throws Exception
 	 */  
 	@Override

@@ -1,16 +1,16 @@
 package indi.twc.hg.dao.impl;
 
+import indi.twc.hg.dao.IBaseDao;
+import indi.twc.hg.utils.JdbcUtils;
+import indi.twc.hg.utils.ShowSql;
+import indi.twc.hg.utils.mapper.RowMapper;
+
 import java.sql.Connection;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.List;
-
-import indi.twc.hg.common.mapper.RowMapper;
-import indi.twc.hg.dao.IBaseDao;
-import indi.twc.hg.utils.JdbcUtils;
-import indi.twc.hg.utils.ShowSql;
 
 public class BaseDaoImpl implements IBaseDao {
 	/**
@@ -60,7 +60,6 @@ public class BaseDaoImpl implements IBaseDao {
 			}
 			//打印sql与plist
 			ShowSql.print(sql, plist);
-			
 			List<T> dataList = JdbcUtils.executeQuery(conn, sql, plist.toArray(), rm);
 			return dataList;
 	}	

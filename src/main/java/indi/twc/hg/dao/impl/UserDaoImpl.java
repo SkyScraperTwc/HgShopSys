@@ -1,13 +1,13 @@
 package indi.twc.hg.dao.impl;
 
+import indi.twc.hg.dao.IUserDao;
+import indi.twc.hg.entity.User;
+import indi.twc.hg.utils.JdbcUtils;
+import indi.twc.hg.utils.mapper.UserRowMapper;
+
 import java.sql.Connection;
 import java.sql.SQLException;
 import java.util.List;
-
-import indi.twc.hg.common.mapper.UserRowMapper;
-import indi.twc.hg.utils.JdbcUtils;
-import indi.twc.hg.dao.IUserDao;
-import indi.twc.hg.entity.User;
 
 public class UserDaoImpl implements IUserDao {
 		public static String findByUsername = "select * from T_USER where U_USERNAME =? ";

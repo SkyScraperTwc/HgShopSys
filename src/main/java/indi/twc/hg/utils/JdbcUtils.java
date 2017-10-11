@@ -2,6 +2,8 @@ package indi.twc.hg.utils;
 /**
  *
  */
+import indi.twc.hg.utils.mapper.RowMapper;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
@@ -9,9 +11,6 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
-
-import indi.twc.hg.common.mapper.RowMapper;
-
 
 public class JdbcUtils {
 	private static String driverClass = "com.mysql.jdbc.Driver";

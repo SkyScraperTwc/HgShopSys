@@ -10,8 +10,8 @@ import indi.twc.hg.dao.impl.CategoryDaoImpl;
 import indi.twc.hg.dao.impl.CategoryDaoImpl.Cg_Sql;
 import indi.twc.hg.entity.Category;
 import indi.twc.hg.entity.PageData;
-import indi.twc.hg.common.mapper.CategoryRowMapper;
 import indi.twc.hg.service.ICategoryService;
+import indi.twc.hg.utils.mapper.CategoryRowMapper;
 
 public class CategoryServiceImpl implements ICategoryService {
 	private CategoryDaoImpl categoryDao = new CategoryDaoImpl();

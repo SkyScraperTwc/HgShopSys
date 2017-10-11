@@ -6,13 +6,13 @@ import java.util.List;
 import java.util.Map;
 
 import indi.twc.hg.entity.PageData;
-import indi.twc.hg.common.mapper.ProductImageRowMapper;
-import indi.twc.hg.common.mapper.ProductRowMapper;
 import indi.twc.hg.dao.impl.ProductDaoImpl;
 import indi.twc.hg.dao.impl.ProductDaoImpl.PD_Sql;
 import indi.twc.hg.entity.Product;
 import indi.twc.hg.entity.ProductImage;
 import indi.twc.hg.service.IProductService;
+import indi.twc.hg.utils.mapper.ProductImageRowMapper;
+import indi.twc.hg.utils.mapper.ProductRowMapper;
 
 public class ProductServiceImpl extends BaseServiceImpl implements IProductService {
 	private ProductDaoImpl productDao = new ProductDaoImpl();
@@ -82,9 +82,7 @@ public class ProductServiceImpl extends BaseServiceImpl implements IProductServi
 	}
 	/**
 	 * 查询副图片 
-	 * @param conn
-	 * @param pi
-	 */ 
+	 */
 	@Override
 	public List<ProductImage> findPImages(Integer id) throws Exception {
 		try {

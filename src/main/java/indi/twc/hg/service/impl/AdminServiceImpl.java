@@ -9,15 +9,13 @@ import indi.twc.hg.dao.impl.AdminDaoImpl;
 import indi.twc.hg.dao.impl.AdminDaoImpl.Admin_Sql;
 import indi.twc.hg.entity.Admin;
 import indi.twc.hg.entity.PageData;
-import indi.twc.hg.common.mapper.AdminRowMapper;
 import indi.twc.hg.service.IAdminService;
+import indi.twc.hg.utils.mapper.AdminRowMapper;
 
 public class AdminServiceImpl implements IAdminService {
 	private AdminDaoImpl adminDao = new AdminDaoImpl();
 	/**
 	 * 注册用户！
-	 * @param user
-	 * @return
 	 */
 	@Override  
 	public String add(Admin admin) throws Exception{
