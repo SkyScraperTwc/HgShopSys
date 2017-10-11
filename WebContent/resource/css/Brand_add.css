@@ -1,0 +1,51 @@
+body{
+	margin:0;
+	background:#ffffff; 
+	font-size:13px;
+}
+#title{
+	background: url(/HgShopSys/resource/backImage/images/content-bg.gif) repeat-x;
+	height: 31px;
+	line-height: 28px; 
+} 
+.title{
+	background: url(/HgShopSys/resource/backImage/images/top_bt.jpg) no-repeat;
+	height: 26px;
+    width: 85px;
+    text-align:center;
+    font-weight:bold;
+}
+.position{
+	/*设置底边框线*/
+	border-bottom: 2px dotted #ccc;
+	padding:5px;
+}
+
+#add_table{
+	padding:5px;
+	width: 75%;
+	
+}
+#cap{
+	border-bottom: 2px dotted #ccc;
+	padding:4px;
+	background-color:#00FA9A  ;
+} 
+
+#add_table td{ 
+	padding: 7px 0px;
+}     
+/*#add_table input{
+	width: 200px;
+	height: 25px;
+}*/
+#add_table textarea{
+	width: 400px;
+	height: 110px;
+}
+#button{
+	width: 80px;
+}
+#reset{
+	width: 80px;
+}

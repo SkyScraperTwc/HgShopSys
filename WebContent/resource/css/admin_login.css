@@ -1,0 +1,58 @@
+body{
+	/*background: red;*/
+	margin: 0px;
+	font-size: 13px;
+}
+#head{
+	background: url(/HgShopSys/resource/backImage/images/login-top-bg.gif) repeat-x;
+	height: 41px;
+}
+
+#foot{
+		background: url(/HgShopSys/resource/backImage/images/login-bottom-bg.gif) repeat-x;
+		height:20px;
+		color:#FFFFF0;
+		text-align: center;
+}
+#center{
+	background: url(/HgShopSys/resource/backImage/images/login_bg.jpg) repeat-x;
+	height: 532px;
+}
+#center_left ul{
+	padding: 71px 0px 0px 0px;
+	margin: 0px;
+	background: url(/HgShopSys/resource/backImage/images/logo.png) no-repeat;
+	position: absolute;
+	top: 125px;
+	right: 20px;
+	width: 282px;
+}
+#center_left ul li{
+	padding: 3px 0px;
+}
+#center_left{
+	width: 50%;
+	background: url(/HgShopSys/resource/backImage/images/login-content-bg.gif) no-repeat center right;
+	height: 532px;
+	float: left;
+	position: relative;
+}  
+
+#center_right{
+	width: 50%; 
+	float: right;
+	height: 532px;
+	background: url(/HgShopSys/resource/backImage/images/login-wel.gif) no-repeat bottom right;
+	position: relative;
+}
+ 
+#table{
+	  padding: px;
+	  margin: 0px; 
+	  position: absolute;
+	  top: 120px;
+	  right: 140px; 
+}
+#table td{
+	padding: 3px ;
+}

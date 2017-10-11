@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+  xmlns="http://xmlns.jcp.org/xml/ns/javaee" 
+  xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" 
+  version="3.1">
+  
+  <!-- 设置欢迎页面 -->
+  <welcome-file-list>
+	  	<welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+   
+  <!-- 编码过滤器配置  -->
+  <filter>
+  		<filter-name>encoding_filter</filter-name>
+  		<filter-class>indi.twc.hg.web.filter.EncodingFilter</filter-class>
+  </filter>
+  <filter-mapping>
+  		<filter-name>encoding_filter</filter-name>
+  		<url-pattern>*</url-pattern>
+  </filter-mapping>
+  
+  <!-- 前端过滤器配置 ，web项目启动时就创建对象，并且执行init()方法-->  
+   <filter>
+  		<filter-name>front_login_filter</filter-name>
+  		<filter-class>indi.twc.hg.web.filter.FrontLoginFilter</filter-class>
+	  		<init-param>
+	  			<param-name>exclude_path</param-name>
+	  			<param-value>
+	  				    <!-- 以下路径可以放行 -->
+	  					/front/user/toLogin.do,
+	  					/front/user/login.do,
+  						/front/user/toRegister.do,
+						/front/user/register.do
+	  			</param-value>	 
+	  		</init-param>
+  </filter> 
+  <filter-mapping> 
+  		<filter-name>front_login_filter</filter-name>
+	  		<!--以下请求路径会被过滤器截取 -->
+	  		<url-pattern>/front/order/*</url-pattern>
+	  		<url-pattern>/front/user/*</url-pattern> 
+  </filter-mapping>
+  
+   <!-- 后端过滤器配置  -->  
+   <filter> 
+  		<filter-name>back_filter</filter-name>
+  		<filter-class>indi.twc.hg.web.filter.BackLoginFilter</filter-class>
+	  		<init-param> 
+	  			<param-name>exclude_path</param-name> 
+	  			<param-value> 
+	  					<!-- 以下路径可以放行 -->
+	  					/back/admin/toLogin.do,
+	  					/back/admin/login.do
+	  			</param-value>	 
+	  		</init-param>
+  </filter>
+  <filter-mapping>
+  		<filter-name>back_filter</filter-name>
+  			<!--以下请求路径会被过滤器截取 -->
+	  		<url-pattern>/back/admin/*</url-pattern>  
+	  		<url-pattern>/back/brand/*</url-pattern>
+	  		<url-pattern>/back/category/*</url-pattern>
+	 		<url-pattern>/back/product/*</url-pattern>
+  </filter-mapping>
+  
+<!-- 错误页面配置 -->
+	<error-page> 
+		<error-code>404</error-code>  
+		<location>/WEB-INF/pages/status/404.html</location>
+	</error-page> 
+    <error-page>
+		<error-code>500</error-code>
+		<location>/WEB-INF/pages/status/500.html</location>
+	</error-page>
+    <error-page>
+		<exception-type>java.lang.Exception</exception-type>
+		<location>/WEB-INF/pages/status/500.html</location>
+	</error-page>
+	
+  <servlet>
+    <servlet-name>ContactServlet</servlet-name>
+    <servlet-class>indi.twc.hg.utils.ContactServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ContactServlet</servlet-name> 
+    <url-pattern> /contact.do</url-pattern>
+  </servlet-mapping>
+	
+<!--前端用户资源配置  -->
+  <servlet>
+    <servlet-name>UserToRegisterServlet</servlet-name>
+    <servlet-class>indi.twc.hg.web.controller.user.UserToRegisterServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserToRegisterServlet</servlet-name>
+    <url-pattern> /front/user/toRegister.do</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>UserRegisterServlet</servlet-name>
+    <servlet-class>indi.twc.hg.web.controller.user.UserRegisterServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserRegisterServlet</servlet-name>
+    <url-pattern> /front/user/register.do</url-pattern>
+  </servlet-mapping>
+  
+    <servlet> 
+    <servlet-name>UserToLoginServlet</servlet-name>
+    <servlet-class>indi.twc.hg.web.controller.user.UserToLoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping> 
+    <servlet-name>UserToLoginServlet</servlet-name>
+    <url-pattern> /front/user/toLogin.do</url-pattern>
+  </servlet-mapping>
+  
+     <servlet>
+    <servlet-name>UserLoginServlet</servlet-name>
+    <servlet-class>indi.twc.hg.web.controller.user.UserLoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserLoginServlet</servlet-name>
+    <url-pattern> /front/user/login.do</url-pattern>
+  </servlet-mapping>
+  
+       <servlet>
+    <servlet-name>UserLogOutServlet</servlet-name>
+    <servlet-class>indi.twc.hg.web.controller.user.UserLogOutServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserLogOutServlet</servlet-name>
+    <url-pattern> /front/user/logOut.do</url-pattern>
+  </servlet-mapping>
+  
+  <!--管理员资源配置  -->  
+   <servlet>
+    <servlet-name>AdminToLoginServlet</servlet-name>
+    <servlet-class>indi.twc.hg.web.controller.admin.AdminToLoginServlet</servlet-class>
+  </servlet> 
+  <servlet-mapping> 
+    <servlet-name>AdminToLoginServlet</servlet-name>
+    <url-pattern> /back/admin/toLogin.do</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>AdminToAddServlet</servlet-name>
+    <servlet-class>indi.twc.hg.web.controller.admin.AdminToAddServlet</servlet-class>
+  </servlet> 
+  <servlet-mapping>  
+    <servlet-name>AdminToAddServlet</servlet-name> 
+    <url-pattern> /back/admin/toAdd.do</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>AdminAddServlet</servlet-name>
+    <servlet-class>indi.twc.hg.web.controller.admin.AdminAddServlet</servlet-class>
+  </servlet> 
+  <servlet-mapping>  
+    <servlet-name>AdminAddServlet</servlet-name>
+    <url-pattern> /back/admin/add.do</url-pattern>
+  </servlet-mapping>
+   
+   <servlet>
+    <servlet-name>AdminLoginServlet</servlet-name>
+    <servlet-class>indi.twc.hg.web.controller.admin.AdminLoginServlet</servlet-class>
+  </servlet> 
+  <servlet-mapping>  
+    <servlet-name>AdminLoginServlet</servlet-name>
+    <url-pattern> /back/admin/login.do</url-pattern>
+  </servlet-mapping> 
+  
+   <servlet>
+    <servlet-name>AdminLogOutServlet</servlet-name>
+    <servlet-class>indi.twc.hg.web.controller.admin.AdminLogOutServlet</servlet-class>
+  </servlet> 
+  <servlet-mapping>  
+    <servlet-name>AdminLogOutServlet</servlet-name>
+    <url-pattern> /back/admin/logOut.do</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>AdminListServlet</servlet-name>
+    <servlet-class>indi.twc.hg.web.controller.admin.AdminListServlet</servlet-class>
+  </servlet> 
+  <servlet-mapping>  
+    <servlet-name>AdminListServlet</servlet-name>
+    <url-pattern> /back/admin/list.do</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>AdminDelServlet</servlet-name>
+    <servlet-class>indi.twc.hg.web.controller.admin.AdminDelServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AdminDelServlet</servlet-name>
+    <url-pattern> /back/admin/delete.do</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>AdminToEditServlet</servlet-name>
+    <servlet-class>indi.twc.hg.web.controller.admin.AdminToEditServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AdminToEditServlet</servlet-name>
+    <url-pattern> /back/admin/toEdit.do</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>AdminEditServlet</servlet-name>
+    <servlet-class>indi.twc.hg.web.controller.admin.AdminEditServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AdminEditServlet</servlet-name>
+    <url-pattern> /back/admin/edit.do</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>AdminToPwdChangeServlet</servlet-name>
+    <servlet-class>indi.twc.hg.web.controller.admin.AdminToPwdChangeServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AdminToPwdChangeServlet</servlet-name>
+    <url-pattern> /back/admin/toPwdChange.do</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>AdminPwdChangeServlet</servlet-name>
+    <servlet-class>indi.twc.hg.web.controller.admin.AdminPwdChangeServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AdminPwdChangeServlet</servlet-name>
+    <url-pattern> /back/admin/pwdChange.do</url-pattern>
+  </servlet-mapping>
+  
+ <!--品牌资源配置  --> 
+       <servlet> 
+    <servlet-name>BrandToAddServlet</servlet-name>
+    <servlet-class>indi.twc.hg.web.controller.brand.BrandToAddServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>BrandToAddServlet</servlet-name>
+    <url-pattern> /back/brand/brandToAdd.do</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <servlet-name>BrandAddServlet</servlet-name>
+    <servlet-class>indi.twc.hg.web.controller.brand.BrandAddServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>BrandAddServlet</servlet-name>
+    <url-pattern> /back/brand/brandAdd.do</url-pattern>
+  </servlet-mapping>
+   
+      <servlet>
+    <servlet-name>BrandListServlet</servlet-name>
+    <servlet-class>indi.twc.hg.web.controller.brand.BrandListServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>BrandListServlet</servlet-name>
+    <url-pattern> /back/brand/brandList.do</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>BrandDelServlet</servlet-name>
+    <servlet-class>indi.twc.hg.web.controller.brand.BrandDelServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>BrandDelServlet</servlet-name>
+    <url-pattern> /back/brand/brandDel.do</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>BrandToEditServlet</servlet-name>
+    <servlet-class>indi.twc.hg.web.controller.brand.BrandToEditServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>BrandToEditServlet</servlet-name>
+    <url-pattern> /back/brand/brandToEdit.do</url-pattern>
+  </servlet-mapping>
+  
+      <servlet>
+    <servlet-name>BrandEditServlet</servlet-name>
+    <servlet-class>indi.twc.hg.web.controller.brand.BrandEditServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>BrandEditServlet</servlet-name>
+    <url-pattern> /back/brand/brandEdit.do</url-pattern>
+  </servlet-mapping> 
+  
+<!--产品资源配置  -->    
+    <servlet> 
+    <servlet-name>productToAddServlet</servlet-name>
+    <servlet-class>indi.twc.hg.web.controller.product.ProductToAddServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>productToAddServlet</servlet-name>
+    <url-pattern> /back/product/productToAdd.do</url-pattern>
+  </servlet-mapping>
+   
+   <servlet> 
+    <servlet-name>ProductAddServlet</servlet-name>
+    <servlet-class>indi.twc.hg.web.controller.product.ProductAddServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ProductAddServlet</servlet-name>
+    <url-pattern> /back/product/productAdd.do</url-pattern>
+  </servlet-mapping>
+  
+   <servlet> 
+    <servlet-name>ProductListServlet</servlet-name>
+    <servlet-class>indi.twc.hg.web.controller.product.ProductListServlet</servlet-class>
+  </servlet> 
+  <servlet-mapping>
+    <servlet-name>ProductListServlet</servlet-name>
+    <url-pattern> /back/product/productList.do</url-pattern>
+  </servlet-mapping>
+  
+     <servlet> 
+    <servlet-name>ProductDetailServlet</servlet-name>
+    <servlet-class>indi.twc.hg.web.controller.product.ProductDetailServlet</servlet-class>
+  </servlet>  
+  <servlet-mapping> 
+    <servlet-name>ProductDetailServlet</servlet-name>
+    <url-pattern> /front/product/productDetail.do</url-pattern>
+  </servlet-mapping>
+  
+   <servlet> 
+    <servlet-name>ProductToEditServlet</servlet-name>
+    <servlet-class>indi.twc.hg.web.controller.product.ProductToEditServlet</servlet-class>
+  </servlet>  
+  <servlet-mapping>
+    <servlet-name>ProductToEditServlet</servlet-name>
+    <url-pattern> /back/product/toEdit.do</url-pattern>
+  </servlet-mapping>
+  
+  <servlet> 
+    <servlet-name>ProductEditServlet</servlet-name>
+    <servlet-class>indi.twc.hg.web.controller.product.ProductEditServlet</servlet-class>
+  </servlet>  
+  <servlet-mapping>
+    <servlet-name>ProductEditServlet</servlet-name>
+    <url-pattern> /back/product/edit.do</url-pattern>
+  </servlet-mapping>
+  
+  <servlet> 
+    <servlet-name>ProductDelServlet</servlet-name>
+    <servlet-class>indi.twc.hg.web.controller.product.ProductDelServlet</servlet-class>
+  </servlet>  
+  <servlet-mapping>
+    <servlet-name>ProductDelServlet</servlet-name>
+    <url-pattern> /back/product/delete.do</url-pattern>
+  </servlet-mapping>
+  
+  <!--分类资源配置  -->   
+   <servlet> 
+    <servlet-name>CategoryToAddServlet</servlet-name>
+    <servlet-class>indi.twc.hg.web.controller.category.CategoryToAddServlet</servlet-class>
+  </servlet> 
+  <servlet-mapping>
+    <servlet-name>CategoryToAddServlet</servlet-name>
+    <url-pattern> /back/category/categoryToAdd.do</url-pattern>
+  </servlet-mapping>
+   
+     <servlet> 
+    <servlet-name>CategoryAddServlet</servlet-name>
+    <servlet-class>indi.twc.hg.web.controller.category.CategoryAddServlet</servlet-class>
+  </servlet> 
+  <servlet-mapping>
+    <servlet-name>CategoryAddServlet</servlet-name>
+    <url-pattern> /back/category/categoryAdd.do</url-pattern>
+  </servlet-mapping>
+  
+  <servlet> 
+    <servlet-name>CategoryListServlet</servlet-name>
+    <servlet-class>indi.twc.hg.web.controller.category.CategoryListServlet</servlet-class>
+  </servlet> 
+  <servlet-mapping>
+    <servlet-name>CategoryListServlet</servlet-name>
+    <url-pattern> /back/category/categoryList.do</url-pattern>
+  </servlet-mapping>
+  
+    <servlet> 
+    <servlet-name>CategoryToEditServlet</servlet-name>
+    <servlet-class>indi.twc.hg.web.controller.category.CategoryToEditServlet</servlet-class>
+  </servlet> 
+  <servlet-mapping>
+    <servlet-name>CategoryToEditServlet</servlet-name>
+    <url-pattern> /back/category/categoryToEdit.do</url-pattern>
+  </servlet-mapping>
+  
+   <servlet> 
+    <servlet-name>CategoryEditServlet</servlet-name>
+    <servlet-class>indi.twc.hg.web.controller.category.CategoryEditServlet</servlet-class>
+  </servlet> 
+  <servlet-mapping>
+    <servlet-name>CategoryEditServlet</servlet-name>
+    <url-pattern> /back/category/categoryEdit.do</url-pattern>
+  </servlet-mapping>
+  
+   <servlet> 
+    <servlet-name>CategoryDelServlet</servlet-name>
+    <servlet-class>indi.twc.hg.web.controller.category.CategoryDelServlet</servlet-class>
+  </servlet> 
+  <servlet-mapping>
+    <servlet-name>CategoryDelServlet</servlet-name>
+    <url-pattern> /back/category/delete.do</url-pattern>
+  </servlet-mapping>
+   
+ <!--购物车资源配置  -->    
+       <servlet>  
+    <servlet-name>ShopCartAddServlet</servlet-name>
+    <servlet-class>indi.twc.hg.web.controller.shopcart.ShopCartAddServlet</servlet-class>
+  </servlet>  
+  <servlet-mapping>   
+    <servlet-name>ShopCartAddServlet</servlet-name> 
+    <url-pattern> /front/shopcart/scAdd.do</url-pattern>
+  </servlet-mapping> 
+  
+  <servlet> 
+    <servlet-name>ShopCartClearServlet</servlet-name>
+    <servlet-class>indi.twc.hg.web.controller.shopcart.ShopCartClearServlet</servlet-class>
+  </servlet>  
+  <servlet-mapping>    
+    <servlet-name>ShopCartClearServlet</servlet-name> 
+    <url-pattern> /front/shopcart/scClear.do</url-pattern>
+  </servlet-mapping>
+  
+  <servlet> 
+    <servlet-name>ShopCartDelServlet</servlet-name>
+    <servlet-class>indi.twc.hg.web.controller.shopcart.ShopCartDelServlet</servlet-class>
+  </servlet>  
+  <servlet-mapping>    
+    <servlet-name>ShopCartDelServlet</servlet-name> 
+    <url-pattern> /front/shopcart/scDel.do</url-pattern>
+  </servlet-mapping>
+  
+   <servlet> 
+    <servlet-name>ShopCartUpdateServlet</servlet-name>
+    <servlet-class>indi.twc.hg.web.controller.shopcart.ShopCartUpdateServlet</servlet-class>
+  </servlet>   
+  <servlet-mapping>    
+    <servlet-name>ShopCartUpdateServlet</servlet-name> 
+    <url-pattern> /front/shopcart/scUpdate.do</url-pattern>
+  </servlet-mapping>
+  
+     <servlet> 
+    <servlet-name>ShopCartToPageServlet</servlet-name>
+    <servlet-class>indi.twc.hg.web.controller.shopcart.ShopCartToPageServlet</servlet-class>
+  </servlet>   
+  <servlet-mapping>    
+    <servlet-name>ShopCartToPageServlet</servlet-name> 
+    <url-pattern> /front/shopcart/toPage.do</url-pattern> 
+  </servlet-mapping>
+   
+    <!--图片上传展示资源配置  --> 
+    <servlet>
+    <servlet-name>ImgServlet</servlet-name>
+    <servlet-class>indi.twc.hg.utils.ImgServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ImgServlet</servlet-name>
+    <url-pattern> /imgServlet.do</url-pattern>
+  </servlet-mapping>
+  
+   <!--验证码资源配置  -->  
+  <servlet>
+    <servlet-name>AuthCodeServlet</servlet-name>
+    <servlet-class>indi.twc.hg.utils.AuthCodeServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AuthCodeServlet</servlet-name>
+    <url-pattern> /authcode.img</url-pattern>
+  </servlet-mapping>
+   
+  <!--首页资源配置  -->  
+    <servlet>
+    <servlet-name>IndexServlet</servlet-name>
+    <servlet-class>indi.twc.hg.common.web.servlet.front.IndexServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>IndexServlet</servlet-name>
+    <url-pattern> /front/index.do</url-pattern>
+  </servlet-mapping>
+   
+ <!--后台首页资源配置  -->       
+  <servlet> 
+    <servlet-name>BackIndexServlet</servlet-name>
+    <servlet-class>indi.twc.hg.common.web.servlet.back.BackIndexServlet</servlet-class>
+  </servlet>   
+  <servlet-mapping>    
+    <servlet-name>BackIndexServlet</servlet-name>  
+    <url-pattern>/back/index.do</url-pattern> 
+  </servlet-mapping> 
+  
+    <servlet> 
+    <servlet-name>BackWelcomeServlet</servlet-name>
+    <servlet-class>indi.twc.hg.common.web.servlet.back.BackWelcomeServlet</servlet-class>
+  </servlet>   
+  <servlet-mapping>     
+    <servlet-name>BackWelcomeServlet</servlet-name>  
+    <url-pattern>/back/welcome.do</url-pattern> 
+  </servlet-mapping>  
+   
+    <servlet>  
+    <servlet-name>BackFootServlet</servlet-name>
+    <servlet-class>indi.twc.hg.common.web.servlet.back.BackFootServlet</servlet-class>
+  </servlet>   
+  <servlet-mapping>     
+    <servlet-name>BackFootServlet</servlet-name>  
+    <url-pattern>/back/foot.do</url-pattern> 
+  </servlet-mapping> 
+  
+      <servlet>  
+    <servlet-name>BackMenuServlet</servlet-name>
+    <servlet-class>indi.twc.hg.common.web.servlet.back.BackMenuServlet</servlet-class>
+  </servlet>   
+  <servlet-mapping>     
+    <servlet-name>BackMenuServlet</servlet-name>  
+    <url-pattern>/back/menu.do</url-pattern> 
+  </servlet-mapping> 
+  
+        <servlet>  
+    <servlet-name>BackHeadServlet</servlet-name>
+    <servlet-class>indi.twc.hg.common.web.servlet.back.BackHeadServlet</servlet-class>
+  </servlet>   
+  <servlet-mapping>      
+    <servlet-name>BackHeadServlet</servlet-name>  
+    <url-pattern>/back/head.do</url-pattern> 
+  </servlet-mapping>
+  
+</web-app>

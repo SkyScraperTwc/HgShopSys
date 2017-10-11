@@ -1,0 +1,3642 @@
+/*css document start*/
+*
+{
+    margin: 0;
+    padding: 0;
+}
+html
+{
+    overflow-x: hidden;
+}
+body
+{
+    font-family: Tahoma, Verdana,snas-serif;
+    font-size: 12px;
+    color: #111111;
+    margin: 0 0px;
+    padding: 0px;
+    text-align: center;
+    background-color: #FFFFFF;
+}
+h1, h2, h3, h4
+{
+    font-size: 12px;
+}
+img
+{
+    border: 0;
+}
+a
+{
+    color: #003366;
+    text-decoration: none;
+}
+a:hover
+{
+    color: #258DC9;
+    text-decoration: underline;
+}
+
+#container
+{
+    width: 1000px; /*width: 100%;*/
+    margin: 0 auto;
+
+}
+/*font style start*/
+.fbold
+{
+    font-weight: bold;
+}
+.fyellow
+{
+    font-weight: bold;
+    color: #FF6600;
+}
+.f999
+{
+    color: #999;
+    float: left;
+    padding-right: 7px;
+    font-family: Georgia,Tahoma, Verdana,snas-serif;
+}
+.fblue
+{
+    color: #3F4E5A;
+    font-weight: bold;
+    margin-bottom: 1px;
+}
+.fblack
+{
+    color: #000;
+}
+.f333
+{
+    color: #333333;
+}
+.forange
+{
+    font-weight: bold;
+    color: #FF6600;
+}
+.fblue2
+{
+    color: #003366;
+}
+.fblue3
+{
+    color: #30516D;
+}
+
+.fnumber
+{
+    font-family: Georgia,Tahoma, Verdana,snas-serif;
+}
+.fgreen
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #009900;
+    font-size: 14px;
+}
+/*font style end*/
+
+/*----------------------------------*/
+/*锟斤拷示锟斤拷息锟津部凤拷锟斤拷式锟斤拷始*/
+/*----------------------------------*/
+.history-back
+{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3F4E5A;
+    padding: 2px;
+    font-size: 12px;
+    margin-bottom: 4px;
+    width: 40%;
+}
+.history-back a:link, .history-back a:visited
+{
+    color: #3F4E5A;
+    text-decoration: none;
+}
+.history-back a:hover, .history-back a:active
+{
+    color: #258DC9;
+    text-decoration: underline;
+}
+/*----------------------------------*/
+/*锟斤拷示锟斤拷息锟津部凤拷锟斤拷式锟斤拷锟斤拷*/
+/*----------------------------------*/
+
+/*----------------------------------*/
+/*头锟斤拷锟斤拷式锟斤拷始*/
+/*----------------------------------*/
+#header
+{
+    width: 1000px;
+    text-align: left;
+    overflow: hidden;
+    height: 94px;
+    background-color: #fff;
+    padding-left: 5px;
+    z-index: 1;
+    margin:auto;
+}
+#logo
+{
+    float: left;
+    /*background: url(../frontImage/images/clogo.gif) no-repeat left center;
+    width: 220px;
+    height: 94px;*/
+}
+#headerlogo h1 span
+{
+    display: none;
+}
+#ad
+{
+    float: right;
+    text-align: right;
+}
+#ad img
+{
+    margin-top: 14px;
+}
+/*----------------------------------*/
+/*头锟斤拷锟斤拷式锟斤拷锟斤拷*/
+/*----------------------------------*/
+
+/*----------------------------------*/
+/*锟剿碉拷锟斤拷锟斤拷式锟斤拷始*/
+/*----------------------------------*/
+#menu-nav
+{
+    border: 1px solid #e8e8e8;
+    padding-left: 2px;
+}
+
+
+#menu-bar
+{
+    background: url(../frontImage/images/menu_bg.gif) repeat-x 2px 0px;
+    height: 34px;
+    line-height: 34px;
+}
+#menu-welcome
+{
+    float: left;
+    padding-left: 18px;
+    color: #006699;
+}
+#menu-welcome a
+{
+    background: url(../frontImage/images/celan.gif) no-repeat left center;
+    padding-left: 20px;
+}
+ul#navlist
+{
+    float: right;
+    list-style: none;
+    white-space: nowrap;
+}
+#navlist li
+{
+    float: left;
+    width: 38px;
+    text-align: center;
+}
+#navlist li a, #navlist li a:link
+{
+    display: block;
+    color: #333;
+    height: 26px;
+    background: url(../frontImage/images/menu_line.gif) no-repeat right center;
+    text-decoration: none;
+}
+#navlist li a:hover
+{
+    display: block;
+    color: #258DC9;
+    height: 26px;
+    text-decoration: none;
+}
+
+#HeadNavBar
+{
+    display: block;
+    margin-top: 5px;
+    line-height: 27px;
+    height: 27px;
+    border:solid 1px #FFF;
+
+}
+#HeadNavMenuDiv
+{
+    vertical-align: bottom;
+    padding-left: 8%;
+    border:solid 1px #FFF;
+    line-height: 32px;
+    height: 32px;
+    
+}
+
+#ServicePhoneDiv 
+{
+    text-align:right;
+    padding-right:10px;
+}
+
+ul#HeadNavMenu
+{
+    float: left;
+    list-style: none;
+    white-space: nowrap;
+    vertical-align: bottom;
+    margin:0px;
+    padding:0px;
+}
+#HeadNavMenu li
+{
+    float: left;
+    width: 95px;
+    text-align: center;
+    padding-right:5px;
+    font-size:14px;
+    color:#FFFFFF;
+    font-weight:bold;
+}
+#HeadNavMenu li a, #HeadNavMenu li a:link
+{
+    display: block;
+    color: #333;
+    height: 29px;
+    line-height: 29px;
+    
+    background: url(../frontImage/images/menubglast.png) left center no-repeat;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding-bottom: 0px;
+}
+
+
+#HeadNavMenu .ActiveMenu a:hover, #HeadNavMenu .ActiveMenu a, #HeadNavMenu .ActiveMenu a:link
+{
+    display: block;
+    color: #FFFFFF;
+    height: 29px;
+    line-height: 29px;
+    text-decoration: none;
+    font-weight: bold;
+    /*background: url(../frontImage/images/bg/menuhoverbg.gif) no-repeat left center;*/
+    background: url(../frontImage/images/menuonebg.png) no-repeat;
+    background-position: left bottom;
+    
+}
+#HeadNavMenu .NormalMenu a, #HeadNavMenu NormalMenu a:link
+{
+    display: block;
+    color:#FFFFFF;
+    height: 29px;
+    line-height: 29px;
+    /* margin-top: 2px;
+    background: url(../frontImage/images/bg/menubglast.gif) left center no-repeat;*/
+    background: url(../frontImage/images/menuonebg.png) no-repeat;
+    text-decoration: none;
+    padding-bottom: 0px;
+}
+
+#navlist .system
+{
+    width: 60px;
+}
+#navlist .more
+{
+    width: 85px;
+}
+#navlist .gwc
+{
+    width: 78px;
+}
+#navlist .message
+{
+    width: 60px;
+}
+#navlist .wmessage
+{
+    width: 80px;
+}
+#navlist .more img, #navlist .message img, #navlist .wmessage img
+{
+    float: left;
+    background: none;
+    font-weight: normal;
+    width: 14px;
+    height: 13px;
+    padding: 6px;
+    padding-right: 0px;
+}
+#navlist .gwc img
+{
+    float: left;
+    background: none;
+    font-weight: normal;
+    width: 19px;
+    height: 15px;
+    padding: 6px;
+    padding-right: 0px;
+    }
+#navlist .more2
+{
+    width: 50px;
+    background: url(../frontImage/images/jsmenu.gif) no-repeat right center;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+#navlist .last
+{
+    width: 65px;
+}
+#navlist .last a
+{
+    float: left;
+    background: none;
+    font-weight: normal;
+    height: 24px;
+}
+#navlist .last img
+{
+    float: left;
+    background: none;
+    font-weight: normal;
+    width: 14px;
+    height: 13px;
+    padding: 6px;
+    padding-right: 5px;
+}
+#navlist .last a:link, #navlist .last a:visited
+{
+    background: none;
+    height: 24px;
+}
+#navlist .last a:hover, #navlist .last a:active
+{
+    background: none;
+    height: 24px;
+}
+#navlist span
+{
+    padding: 0 6px;
+    color: #0954A6;
+    font-weight: bold;
+}
+
+.downlist
+{
+    width: 80px;
+    border-left: 1px solid #D7E3F2;
+    border-right: 1px solid #D7E3F2;
+    border-bottom: 1px solid #D7E3F2;
+    margin-top: 0px;
+    background-color: #F5FAFE;
+}
+.downlist h4
+{
+    height: 22px;
+    font-weight: normal;
+    text-align: center;
+    line-height: 22px;
+    padding: 2px;
+}
+/*----------------------------------*/
+/*锟剿碉拷锟斤拷锟斤拷式锟斤拷锟斤拷*/
+/*----------------------------------*/
+
+
+/*----------------------------------*/
+/*锟斤拷锟斤拷页锟斤拷牡锟角拔伙拷锟斤拷锟绞斤拷锟绞�/
+/*----------------------------------*/
+#divposition
+{
+    line-height: 44px;
+    margin: 0;
+    padding: 0;
+}
+#divposition h2
+{
+    float: left;
+    text-align: left;
+    font-weight: 700;
+    padding-left: 3px;
+}
+#divposition h2 a
+{
+    color: #666;
+}
+#divposition #URight
+{
+    line-height: 33px;
+}
+
+/*-----锟斤拷前位锟斤拷锟斤拷锟斤拷专锟矫讹拷锟斤拷-----*/
+#search
+{
+    padding-right: 0px;
+    line-height: 24px;
+}
+
+#search .text
+{
+    float: left;
+    border-right: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-left: 0px solid #ccc;
+    width: 108px;
+    height: 20px !important;
+    height: 24px;
+    padding-top: 4px !important;
+    padding-top: 0px;
+    line-height: 24px;
+    text-indent: 2px;
+}
+#search .s2
+{
+    float: left;
+    background: #fff url(../frontImage/images/dot-down.gif) no-repeat right center;
+    border-left: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    width: 40px;
+    height: 24px;
+    color: #009900;
+    text-align: center;
+    line-height: 24px;
+}
+#search .s3
+{
+    float: left;
+    background: url(../frontImage/images/button-search.gif) no-repeat left bottom;
+    border-right: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-left: 0px solid #ccc;
+    width: 28px;
+    height: 26px;
+    line-height: 26px;
+}
+/*-----锟斤拷前位锟斤拷锟斤拷锟斤拷专锟矫讹拷锟斤拷-----*/
+
+/*-----锟斤拷前位锟斤拷锟叫革拷锟斤拷锟斤拷专锟矫讹拷锟斤拷-----*/
+ul#Divmenu2
+{
+    float: right;
+    list-style: none;
+    white-space: nowrap;
+    margin-top: 12px;
+}
+ul#Divmenu2 li
+{
+    float: left;
+    width: 62px;
+    text-align: center;
+    line-height: 20px;
+}
+#Divmenu2 a, #Divmenu2 a:link
+{
+    display: block;
+    color: #006699;
+    text-decoration: none;
+}
+
+#Divmenu2 a:hover
+{
+    display: block;
+    color: #258DC9;
+    text-decoration: none;
+}
+#Divmenu2 .menuDiv
+{
+    background: #eee;
+    height: 12px;
+    width: 1px;
+    margin-top: 3px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+/*-----锟斤拷前位锟斤拷锟叫革拷锟斤拷锟斤拷专锟矫讹拷锟斤拷-----*/
+
+/*-----showforum锟斤拷锟斤拷锟剿匡拷锟斤拷锟斤拷宓鼻拔伙拷锟阶拷枚锟斤拷锟�----*/
+#divposition2
+{
+    float: left;
+    width: 100%;
+    height: 26px;
+    line-height: 22px;
+}
+#divposition2 h2
+{
+    float: left;
+    text-align: left; /* 	padding-left:18px; 	background:url(../frontImage/images/dot_position.gif) no-repeat left center; 	*/
+    font-weight: 700;
+    padding-left: 3px;
+}
+#divposition2 h2 span a
+{
+    color: #666666;
+    background: url(../frontImage/images/dot-postiont2.gif) no-repeat left center;
+    padding-right: 5px;
+    padding-left: 10px;
+    margin-left: 5px;
+}
+#divposition2 h2 a
+{
+    color: #666666;
+}
+#divposition2 img
+{
+    margin-right: 10px;
+}
+#divposition2 h3
+{
+    float: left;
+    font-weight: lighter;
+    text-align: left;
+    padding-left: 3px;
+}
+#divposition2 h3 span
+{
+    color: #1F90CF;
+    font-size: 12px;
+    font-weight: normal;
+}
+#divposition2 h3 span a
+{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#divposition2 #URight
+{
+    float: right;
+    width: 570px;
+    text-align: right;
+}
+#divposition2 #URight2
+{
+    float: right;
+    width: 178px;
+    text-align: right;
+}
+/*-----showforum锟斤拷锟斤拷锟剿匡拷锟斤拷锟斤拷宓鼻拔伙拷锟阶拷枚锟斤拷锟�----*/
+/*----------------------------------*/
+/*锟斤拷锟斤拷页锟斤拷牡锟角拔伙拷锟斤拷锟绞斤拷锟斤拷锟�/
+/*----------------------------------*/
+
+/*----------------------------------*/
+/*锟斤拷锟斤拷锟斤拷式锟斤拷始*/
+/*----------------------------------*/
+#divMessage
+{
+    clear: both;
+    border: 1px solid #B5E1F7;
+    margin-bottom: 6px;
+}
+#content
+{
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    border-top: 1px solid #fff;
+    border-bottom: 2px solid #fff;
+    background-color: #EEF8FD;
+    line-height: 31px;
+}
+.TMessage
+{
+    float: left;
+    width: 50px;
+    text-align: center;
+    color: #3F4E5A;
+    font-weight: bold;
+}
+#content ul
+{
+    list-style: none;
+}
+#content li
+{
+    float: left;
+    padding-left: 10px;
+}
+#content a
+{
+    color: #3F4E5A;
+}
+/*----------------------------------*/
+/*锟斤拷锟斤拷锟斤拷式锟斤拷始*/
+/*----------------------------------*/
+
+
+/*----------------------------------*/
+/*头锟斤拷锟斤拷锟街癸拷锟斤拷斜锟斤拷锟绞撅拷锟绞�/
+/*----------------------------------*/
+#Divad-text
+{
+    clear: both;
+    border: 1px solid #DCE6F1;
+    background-image: url(../frontImage/images/ad_bg.gif);
+    background-repeat: repeat-x;
+    background-position: 2% 2%;
+}
+.inner
+{
+    border: 1px solid #fff;
+    text-align: left;
+    padding: 4px;
+}
+.inner td
+{
+    padding: 6px;
+}
+/*----------------------------------*/
+/*头锟斤拷锟斤拷锟街癸拷锟斤拷斜锟斤拷锟绞撅拷锟斤拷锟�/
+/*----------------------------------*/
+
+/*----------------------------------*/
+/*锟斤拷锟斤拷锟叫憋拷锟斤拷示锟斤拷始*/
+/*----------------------------------*/
+ul#note
+{
+    padding-left: 40px;
+    border: 1px solid #fff;
+    background-image: url(../frontImage/images/ad_bg.gif);
+    background-repeat: repeat-x;
+    background-position: left top;
+    list-style: none;
+}
+ul#note li
+{
+    text-align: left;
+    line-height: 26px;
+    color: #666;
+    overflow: hidden;
+}
+ul#note span
+{
+    margin-right: 20px;
+}
+ul#note span strong
+{
+    font-weight: lighter;
+    color: #006699;
+}
+/*----------------------------------*/
+/*锟斤拷锟斤拷锟叫憋拷锟斤拷示锟斤拷始*/
+/*----------------------------------*/
+
+/*----------------------------------*/
+/*锟斤拷坛锟斤拷锟斤拷锟叫憋拷锟斤拷示锟斤拷始*/
+/*----------------------------------*/
+/*bbs_list area style start*/
+#bbs-list-nav
+{
+    clear: both;
+    display: inline-block;
+    border: 1px solid #B4C9E0; /*--------------------锟截憋拷说锟斤拷:锟斤拷锟斤拷锟斤拷锟教筹拷写锟侥边匡拷锟斤拷式,锟斤拷锟斤拷锟节此革拷锟�--------------------------*/
+    margin-top: 6px;
+    min-width: 750px;
+    width: 100%;
+}
+#bbs-title
+{
+    border: 1px solid #fff;
+    background: #1080c0 url(../frontImage/images/bbs_title_bg.jpg) repeat-x left top;
+    height: 31px;
+}
+#bbs-title h2
+{
+    float: left;
+    background: url(../frontImage/images/bbs-title-dot.gif) no-repeat left;
+    font-weight: bold;
+    color: #fff;
+    margin-left: 11px;
+    padding-left: 25px;
+    line-height: 31px;
+}
+#bbs-title h3
+{
+    float: left;
+    font-weight: bold;
+    color: #fff;
+    padding-left: 8px;
+    line-height: 31px;
+    font-size: 12px;
+}
+#bbs-title a
+{
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}
+#open
+{
+    margin-right: 6px;
+    float: right;
+    margin-top: 7px;
+    line-height: 20px;
+    vertical-align: middle;
+    color: #fff;
+}
+#open a
+{
+    font-weight:normal;
+    color: #fff;
+}
+#open img
+{
+    padding: 5px;
+}
+/*-----------------锟斤拷细页锟斤拷,锟斤拷锟斤拷锟斤拷专锟矫匡拷始-------------------*/
+#open2
+{
+    margin-right: 6px;
+    width: 140px;
+    height: 20px;
+    float: right;
+    margin-top: 5px;
+}
+#open2 a
+{
+    color: #fff;
+    font-weight: bold;
+    padding-left: 6px;
+}
+
+/*-----------------锟斤拷细页锟斤拷,锟斤拷锟斤拷锟斤拷专锟矫斤拷锟斤拷-------------------*/
+
+/*bbs_list area style start*/
+div.th
+{
+    clear: both;
+    color: #666;
+    line-height: 30px;
+    text-align: center;
+    margin-left: 1px;
+    margin-right: 1px;
+    background: #f5f8fd url(../frontImage/images/title_bg.jpg); /*--------锟截憋拷说锟斤拷:锟斤拷锟斤拷锟斤拷锟教筹拷锟斤拷锟揭筹拷锟斤拷锟斤拷锟斤拷头锟侥憋拷锟斤拷,锟斤拷锟斤拷锟节此革拷锟�-------*/
+}
+.bbslist-right
+{
+    float: right;
+    width: 460px;
+    text-align: center;
+}
+.bbslist1
+{
+    float: left;
+    width: 65px;
+    border-left: 1px solid #fff;
+}
+.bbslist1-1
+{
+    float: left;
+    width: 122px;
+    border-left: 1px solid #fff;
+}
+
+.bbslist
+{
+    border-top: 1px solid #D1E1EF; /*--------------------锟截憋拷说锟斤拷:锟斤拷锟斤拷锟斤拷锟教筹拷锟斤拷锟揭筹拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷姆指锟斤拷弑呖锟斤拷锟绞�锟斤拷锟斤拷锟节此革拷锟�--------------------------*/
+    border-bottom: 2px solid #fff;
+    background-color: #F5FAFE; /*--------------------锟截憋拷说锟斤拷:锟斤拷锟斤拷锟斤拷锟教筹拷锟斤拷锟揭筹拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷谋锟斤拷锟缴拷锟�锟斤拷锟斤拷锟节此革拷锟�--------------------------*/
+    height: auto !important;
+    height: 55px;
+    min-height: 60px;
+    text-align: center;
+    clear: both;
+}
+.list-r1
+{
+    float: right;
+    width: 460px;
+    border-top: 1px solid #fff;
+}
+
+.list2
+{
+    float: left;
+    width: 65px;
+    line-height: 60px;
+    background: url(../frontImage/images/table_bg2.gif) no-repeat top left;
+    font-family: Georgia,Tahoma, Verdana,snas-serif;
+}
+.today
+{
+    color: #009900;
+    font-weight: normal;
+    padding-left: 3px;
+}
+.list2-1
+{
+    float: left;
+    background: url(../frontImage/images/table_bg2.gif) no-repeat top left;
+    padding-left: 5px;
+}
+.list2-1 .Navdiv
+{
+    font-family: Georgia,Tahoma, Verdana,snas-serif;
+    line-height: 18px;
+    padding-left: 20px;
+    text-align: left;
+    background: url(../frontImage/images/writer.gif) no-repeat 2px 5px;
+}
+.list2-1 .Navdiv a
+{
+    color: #3F4E5A;
+    text-decoration: none;
+}
+.Navdiv span
+{
+    color: #666;
+}
+.list2-1 h4
+{
+    color: #3F4E5A;
+    text-align: left;
+    line-height: 20px;
+    font-weight: lighter;
+    padding-left: 2px;
+    padding-top: 10px;
+}
+.list2-1 a
+{
+    color: #3F4E5A;
+}
+.manager-nav
+{
+    color: #006699;
+    text-align: left;
+    padding-left: 8px;
+    margin-top: 2px;
+}
+.manager-nav a
+{
+    color: #006699;
+    text-decoration: underline;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.manager-nav span
+{
+    color: #666;
+}
+.list-s
+{
+    float: left;
+    text-align: center;
+    width: 53px;
+    height: 48px;
+    border-top: 1px solid #fff;
+}
+.list-s img
+{
+    margin-top: 7px;
+}
+.listtitle
+{
+    min-width: 280px;
+    float: none !important;
+    float: left;
+    margin-left: 52px !important;
+    margin-left: 0px;
+    background: url(../frontImage/images/table_bg2.gif) no-repeat top left;
+    border-top: 1px solid #fff;
+}
+.listtitle img
+{
+    margin-top: 5px;
+    margin-right: 8px;
+}
+.listtitle h1
+{
+    font-size: 12px;
+    text-align: left;
+    padding-left: 8px;
+    margin: 0px;
+}
+.listtitle h3
+{
+    text-align: left;
+    padding-left: 8px;
+    padding-top: 6px;
+    margin-bottom: 4px;
+}
+.listtitle h3 a
+{
+    color: #3F4E5A;
+}
+.Tbottom
+{
+    text-align: left;
+    padding-left: 8px;
+    color: #666;
+}
+.top img
+{
+    margin-left: 10px;
+}
+.list2-1 h3
+{
+    line-height: 20px;
+    margin-top: 8px;
+    margin-left: 10px;
+    width: 110px;
+    text-align: left;
+    font-weight: normal;
+    color: #003366;
+    background: url(../frontImage/images/writer.gif) no-repeat left center;
+    padding-left: 16px;
+}
+/*---------------锟斤拷锟斤拷锟斤拷锟斤拷坛锟叫憋拷锟斤拷锟斤拷时锟斤拷锟斤拷式-----------*/
+.bbslist-on
+{
+    border-top: 1px solid #D1E1EF; /*--------------------锟截憋拷说锟斤拷:锟斤拷锟斤拷锟斤拷锟教筹拷锟斤拷锟揭筹拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷姆指锟斤拷弑呖锟斤拷锟绞�锟斤拷锟斤拷锟节此革拷锟�--------------------------*/
+    border-bottom: 2px solid #fff;
+    background-color: #F9FCFF; /*------------锟截憋拷说锟斤拷:锟斤拷锟斤拷锟斤拷锟教筹拷锟斤拷锟揭筹拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷去时锟侥憋拷锟斤拷色锟斤拷,锟斤拷锟斤拷锟节此革拷锟�---------*/
+    height: auto !important;
+    height: 55px;
+    min-height: 60px;
+    text-align: center;
+    clear: both;
+}
+.bbslist-on .list-r1
+{
+    float: right;
+    width: 460px;
+    border-top: 1px solid #fff;
+}
+.bbslist-on .list2
+{
+    float: left;
+    width: 65px;
+    line-height: 60px;
+    background: url(../frontImage/images/table_bg3.gif) no-repeat top left;
+    font-family: Georgia,Tahoma, Verdana,snas-serif;
+}
+.bbslist-on .list2-1
+{
+    float: left;
+    width: 122px;
+    background: url(../frontImage/images/table_bg3.gif) no-repeat top left;
+}
+.bbslist-on .listtitle
+{
+    min-width: 280px;
+    float: none !important;
+    float: left;
+    margin-left: 52px !important;
+    margin-left: 0px;
+    background: url(../frontImage/images/table_bg3.gif) no-repeat top left;
+    border-top: 1px solid #fff;
+}
+.bbslist-on .listtitle h3 a
+{
+    color: #258DC9;
+}
+.bbslist-on .today
+{
+    color: #258DC9;
+    font-weight: normal;
+}
+
+/*---------------bbs_list area 锟斤拷锟斤拷-----------*/
+/*bbs_list area style end*/
+/*---------------bbs_list area 锟斤拷锟斤拷-----------*/
+ul#content-list
+{
+    list-style: none;
+    width: 100%;
+    float: left;
+}
+ul#content-list li
+{
+    float: left;
+    text-align: left;
+    background: url(../frontImage/images/table_bg2.gif) no-repeat top left;
+    background-color: #F5FAFE; /*--------锟截憋拷说锟斤拷:锟斤拷锟斤拷锟斤拷锟教筹拷锟斤拷锟揭筹拷锟斤拷锟斤拷虐锟斤拷锟斤拷坛锟斤拷锟侥憋拷锟斤拷,锟斤拷锟斤拷锟节此革拷锟�-------*/
+}
+ul#content-list li div
+{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top: 1px solid #D1E1EF; /*--------锟截憋拷说锟斤拷:锟斤拷锟斤拷锟斤拷锟教筹拷锟斤拷锟揭筹拷锟斤拷锟斤拷虐锟斤拷锟斤拷坛锟斤拷锟侥边匡拷锟斤拷,锟斤拷锟斤拷锟节此革拷锟�-------*/
+    border-bottom: 2px solid #fff;
+    line-height: 150%;
+    height: auto !important;
+    height: 60px;
+    min-height: 55px;
+    text-indent: 10px;
+}
+ul#content-list a
+{
+    color: #3F4E5A;
+}
+ul#content-list a:hover
+{
+    color: #258DC9;
+}
+ul#content-list h5
+{
+    padding-left: 10px;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: normal;
+    padding: 0px;
+    margin: 0px;
+}
+ul#content-list strong
+{
+    font-family: Georgia,Tahoma, Verdana,snas-serif;
+    color: #009900;
+    font-weight: normal;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+ul#content-list span
+{
+    float: left;
+}
+ul#content-list span a
+{
+    color: #006699;
+    text-decoration: underline;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+/*---------------bbs_list area 锟斤拷锟斤拷-----------*/
+
+/*----------------------------------*/
+/*锟斤拷坛锟斤拷锟斤拷锟叫憋拷锟斤拷示锟斤拷锟斤拷*/
+/*----------------------------------*/
+
+/*----------------------------------*/
+/*锟斤拷锟斤拷锟斤拷锟斤拷锟叫憋拷锟斤拷示锟斤拷始*/
+/*----------------------------------*/
+#bbs-plate-nav
+{
+    padding: 0px;
+}
+#bbs-plate-nav .Plate-th
+{
+    border: 1px solid #ffffff;
+    background: #fff url(../frontImage/images/title_bg.jpg) repeat-x left top;
+    color: #095F93;
+    line-height: 27px;
+    text-align: center;
+    min-width: 750px;
+}
+#bbs-plate-nav .Plate-th-r
+{
+    float: right;
+    width: 360px;
+}
+#bbs-plate-nav .Htitle1
+{
+    float: left;
+    width: 131px;
+    border-left: 1px solid #fff;
+}
+#bbs-plate-nav .Htitle1-1
+{
+    float: left;
+    width: 89px;
+    border-left: 1px solid #fff;
+}
+#bbs-plate-nav .plate-list
+{
+    clear: both;
+    border-top: 1px solid #D8E6F1; /*--------------------锟截憋拷说锟斤拷:锟斤拷锟斤拷锟斤拷锟教筹拷锟斤拷锟斤拷锟斤拷斜锟揭筹拷锟侥伙拷锟斤拷之锟斤拷姆指锟斤拷呖锟斤拷锟斤拷诖烁锟斤拷---------------------------*/
+    border-bottom: 2px solid #fff;
+    background-color: #f5fafe;
+    height: auto !important;
+    height: 30px;
+    min-height: 30px;
+}
+#bbs-plate-nav .plate-list2
+{
+    clear: both;
+    border-top: 1px solid #D8E6F1; /*--------------------锟截憋拷说锟斤拷:锟斤拷锟斤拷锟斤拷锟教筹拷锟斤拷锟斤拷锟斤拷斜锟揭筹拷锟侥伙拷锟斤拷之锟斤拷姆指锟斤拷呖锟斤拷锟斤拷诖烁锟斤拷---------------------------*/
+    border-bottom: 2px solid #fff;
+    background-color: #f5fafe; /*--------------------锟截憋拷说锟斤拷:锟斤拷锟斤拷锟斤拷锟教筹拷锟斤拷锟斤拷锟斤拷斜锟揭筹拷锟侥伙拷锟斤拷之锟斤拷谋锟斤拷锟缴拷锟斤拷锟斤拷诖烁锟斤拷---------------------------*/
+    height: auto !important;
+    height: 30px;
+    min-height: 30px;
+}
+#bbs-plate-nav .plate-message
+{
+    clear: both;
+    border-top: 1px solid #D8E6F1; /*--------------------锟截憋拷说锟斤拷:锟斤拷锟斤拷锟斤拷锟教筹拷锟斤拷锟斤拷锟斤拷斜锟揭筹拷锟侥伙拷锟斤拷之锟斤拷姆指锟斤拷呖锟斤拷锟斤拷诖烁锟斤拷---------------------------*/
+    border-bottom: 2px solid #fff;
+    background-color: #f5fafe;
+    height: auto !important;
+    height: 30px;
+    min-height: 30px;
+}
+.Plate-th-r2
+{
+    float: right;
+    width: 360px;
+    border-top: 1px solid #fff;
+}
+.Plate-th-r3
+{
+    float: right;
+    width: 610px;
+}
+.Htitle2
+{
+    float: left;
+    width: 131px;
+    background: url(../frontImage/images/table_bg2.gif) no-repeat top left;
+    text-align: left;
+}
+.Htitle2-1
+{
+    float: left;
+    width: 89px;
+    font-family: Georgia,Tahoma, Verdana,snas-serif;
+    background: url(../frontImage/images/table_bg2.gif) no-repeat top left;
+}
+.Htitle2 h3
+{
+    line-height: 18px;
+    margin-top: 2px;
+    margin-left: 10px;
+    width: 110px;
+    text-align: left;
+    font-weight: normal;
+    color: #003366;
+    background: url(../frontImage/images/writer.gif) no-repeat left center;
+    padding-left: 16px;
+}
+.Htitle2 h4
+{
+    line-height: 18px;
+    margin-top: 4px;
+    width: 118px;
+    text-align: right;
+    font-weight: normal;
+    color: #003366;
+}
+.Htitle2 h3 a
+{
+    color: #003366;
+}
+.Htitle2 h4 a
+{
+    color: #003366;
+}
+.Htitle2 div
+{
+    line-height: 18px;
+    padding-left: 10px;
+    width: 118px;
+    text-align: left;
+    color: #666;
+    font-family: Georgia,Tahoma, Verdana,snas-serif;
+}
+.Htitle2 .div2
+{
+    line-height: 18px;
+    width: 125px;
+    text-align: left;
+    color: #666;
+    font-family: Georgia,Tahoma, Verdana,snas-serif;
+}
+.plate-s
+{
+    float: left;
+    text-align: center;
+    width: 54px;
+    background: url(../frontImage/images/table_bg2.gif) no-repeat top left;
+    border-top: 1px solid #fff;
+}
+.plate-s img
+{
+    margin-top: 8px;
+}
+.platetitle
+{
+    min-width: 260px;
+    margin-left: 52px;
+    background: url(../frontImage/images/table_bg2.gif) no-repeat top left;
+    border-top: 1px solid #fff;
+}
+.platetitle img
+{
+    margin-right: 3px;
+}
+.paltitle
+{
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 10px;
+    height: auto !important;
+    height: 30px;
+    min-height: 30px;
+}
+.paltitle a
+{
+    color: #003366;
+}
+.paltitle a:hover
+{
+    text-decoration: underline;
+}
+.paltitle2
+{
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 10px;
+    height: auto !important;
+    height: 30px;
+    min-height: 30px;
+}
+.paltitle2 a
+{
+    color: #003366;
+}
+.paltitle2 a:hover
+{
+    color: #003366;
+    text-decoration: underline;
+}
+.platepage
+{
+    padding-left: 4px;
+    line-height: 20px;
+    background: url(../frontImage/images/dot_page.gif) no-repeat 12px 0px !important;
+    background: url(../frontImage/images/dot_page.gif) no-repeat 12px 2px;
+}
+.platepage a
+{
+    color: #666;
+    padding: 3px;
+}
+.platepage a:hover
+{
+    color: #006699;
+    padding: 3px;
+    text-decoration: underline;
+}
+/*-------------锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟绞憋拷浠拷锟斤拷锟绞斤拷锟斤拷蹇�---------------*/
+#bbs-plate-nav .plate-list-on
+{
+    clear: both;
+    border-top: 1px solid #D8E6F1; /*--------------------锟截憋拷说锟斤拷:锟斤拷锟斤拷锟斤拷锟教筹拷锟斤拷锟斤拷锟斤拷斜锟揭筹拷锟侥伙拷锟斤拷之锟斤拷姆指锟斤拷呖锟斤拷锟斤拷诖烁锟斤拷---------------------------*/
+    border-bottom: 2px solid #fff;
+    background-color: #F9FCFF;
+    height: auto !important;
+    height: 30px;
+    min-height: 30px;
+}
+.plate-list-on .Htitle2
+{
+    float: left;
+    width: 131px;
+    background: url(../frontImage/images/table_bg3.gif) no-repeat top left;
+    text-align: left;
+}
+.plate-list-on .Htitle2-1
+{
+    float: left;
+    width: 89px;
+    font-family: Georgia,Tahoma, Verdana,snas-serif;
+    background: url(../frontImage/images/table_bg3.gif) no-repeat top left;
+}
+.plate-list-on .platetitle
+{
+    min-width: 260px;
+    margin-left: 52px;
+    background: url(../frontImage/images/table_bg3.gif) no-repeat top left;
+    border-top: 1px solid #fff;
+}
+.plate-list-on .paltitle a
+{
+    color: #258DC9;
+}
+.plate-list-on .plate-s
+{
+    float: left;
+    text-align: center;
+    width: 54px;
+    background: url(../frontImage/images/table_bg3.gif) no-repeat -1px;
+    border-top: 1px solid #fff;
+}
+/*-------------锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟绞憋拷浠拷锟斤拷锟绞斤拷锟斤拷蹇�---------------*/
+
+/*-------------锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷时锟戒化锟斤拷锟斤拷式锟斤拷锟藉开始----------------*/
+#bbs-plate-nav .plate-result-on
+{
+    clear: both;
+    border-top: 1px solid #D8E6F1; /*--------------------锟截憋拷说锟斤拷:锟斤拷锟斤拷锟斤拷锟教筹拷锟斤拷锟斤拷锟斤拷斜锟揭筹拷锟侥伙拷锟斤拷之锟斤拷姆指锟斤拷呖锟斤拷锟斤拷诖烁锟斤拷---------------------------*/
+    border-bottom: 2px solid #fff;
+    background-color: #F9FCFF;
+height:auto!important;
+height:30px;
+min-height:30px;
+}
+.plate-result-on .Htitle2
+{
+    float: left;
+    width: 131px;
+    background: url(../frontImage/images/table_bg3.gif) no-repeat top left;
+    text-align: left;
+}
+.plate-result-on .Htitle2-1
+{
+    float: left;
+    width: 81px;
+    font-family: Georgia,Tahoma, Verdana,snas-serif;
+    background: url(../frontImage/images/table_bg3.gif) no-repeat top left;
+}
+.plate-result-on .platetitle
+{
+    min-width: 260px;
+    margin-left: 52px;
+    background: url(../frontImage/images/table_bg3.gif) no-repeat top left;
+    border-top: 1px solid #fff;
+}
+.plate-result-on .paltitle a
+{
+    color: #258DC9;
+}
+.plate-result-on .plate-s
+{
+    float: left;
+    text-align: center;
+    width: 54px;
+    background: url(../frontImage/images/table_bg3.gif) no-repeat -1px;
+    border-top: 1px solid #fff;
+}
+/*-------------锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷时锟戒化锟斤拷锟斤拷式锟斤拷锟藉开始----------------*/
+
+
+/*-------------锟斤拷锟斤拷展锟斤拷锟斤拷始----------------*/
+.openlist
+{
+    border-top: 1px solid #D8E6F1;
+    background: #F9FCFF url(../frontImage/images/openlist-bg.jpg) repeat-x left top;
+    padding-left: 89px;
+    text-align: left;
+    padding-top: 12px;
+    line-height: 20px;
+}
+ul.listcontent
+{
+    clear: both;
+    list-style: none;
+}
+ul.listcontent li
+{
+    padding-top: 3px;
+    background: url(../frontImage/images/openlist-dot.jpg) no-repeat left center;
+    padding-left: 10px;
+}
+ul.listcontent a:hover
+{
+    text-decoration: underline;
+}
+.pagecontent
+{
+    width: 160px;
+    margin-top: 6px;
+    text-align: center;
+    border: 1px solid #B4C9E0;
+    background-color: #F5FAFE;
+    margin-left: 89px;
+    margin-bottom: 2px;
+}
+.pagediv
+{
+    background-color: #F9FCFF;
+    text-align: left;
+}
+/*-------------锟斤拷锟斤拷展锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷----------------*/
+
+/* -----------锟斤拷锟斤拷员锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷始-----------------*/
+#pass
+{
+    width: 270px;
+    height: 100px;
+    margin: 0 auto;
+}
+#pass label
+{
+    width: 80px;
+    line-height: 25px;
+}
+.colorfocus
+{
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px #99CC00 double;
+    background-color: #ffffff;
+    height: 20px;
+    line-height: 24px;
+    margin: 2px;
+}
+.colorblur
+{
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px #B9CDE3 double;
+    background-color: #ffffff;
+    line-height: 24px;
+    height: 20px;
+    margin: 2px;
+}
+.colorblue
+{
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px #B9CDE3 double;
+    background-color: #ffffff;
+    line-height: 24px;
+    height: 20px;
+    margin: 2px;
+}
+.colorblue2
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    border: 1px #B9CDE3 double;
+    background-color: #ffffff;
+    margin: 2px;
+}
+.colorfocus2
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    border: 1px #99CC00 double;
+    background-color: #ffffff;
+    margin: 2px;
+}
+.inp-radio
+{
+    padding: 15px;
+    line-height: 20px;
+}
+.sbutton
+{
+    margin-left: 8px;
+    margin-top: 5px;
+    width: 77px;
+    height: 27px;
+    background: url(../frontImage/images/button-bg3.gif) no-repeat left top;
+    color: #fff;
+    border: none;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+.sbutton:hover
+{
+    margin-left: 8px;
+    margin-top: 5px;
+    width: 77px;
+    height: 27px;
+    background: url(../frontImage/images/button-bg3.gif) no-repeat left top;
+    color: #fff;
+    border: none;
+    font-weight: bold;
+    margin-bottom: 3px;
+	cursor:pointer;
+}
+#pass br
+{
+    clear: left;
+}
+/* -----------锟斤拷锟斤拷员锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟�----------------*/
+
+/*-------------锟阶诧拷锟斤拷识说锟斤拷展锟斤拷锟斤拷始----------------*/
+#plate-picture
+{
+    clear: both;
+    padding-top: 24px;
+}
+#plate-picture .outer
+{
+    border: 1px solid #D6D6D6;
+    padding: 2px 2px 5px 2px;
+    width: 410px;
+    margin: 0 auto;
+}
+#plate-picture .Parea
+{
+    color: #333;
+    height: 72px;
+    background: #FAFAFA;
+}
+#plate-picture .Parea ul
+{
+    list-style: none;
+    margin-left: 20px;
+}
+#plate-picture .Parea li
+{
+    float: left;
+    text-align: left;
+    line-height: 22px;
+    width: 125px;
+}
+#plate-picture .Parea li img
+{
+    padding: 9px;
+}
+/*-------------锟阶诧拷锟斤拷识说锟斤拷展锟斤拷锟斤拷锟斤拷锟�---------------*/
+
+/*----------------------------------*/
+/*锟斤拷锟斤拷锟斤拷锟斤拷锟叫憋拷锟斤拷示锟斤拷锟斤拷*/
+/*----------------------------------*/
+
+/*----------------------------------*/
+/*锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷细锟斤拷锟斤拷锟斤拷式锟斤拷锟斤拷 锟斤拷始*/
+/*----------------------------------*/
+.detail-message
+{
+    line-height: 28px;
+    text-align: center;
+    background-color: #F5FAFE;
+    color: #0099cc;
+}
+/*-------------top说锟斤拷锟斤拷始----------------*/
+#bbs-detail-nav
+{
+    padding: 1px;
+    height: 33px !important;
+    height: 34px;
+    background: #F5FAFE url(../frontImage/images/bbs_detail_bg1.gif) repeat-x top left;
+}
+#bbs-detail-nav .Dleft
+{
+    float: left;
+    font-weight: bold;
+    color: #0099cc;
+    width: 177px !important;
+    width: 178px;
+    border-right: 1px solid #e6eef7;
+    background: url(../frontImage/images/td_bg2.gif) no-repeat top left;
+    height: 32px !important;
+    height: 34px;
+}
+#bbs-detail-nav .Dright
+{
+    margin-left: 179px;
+    background: url(../frontImage/images/td_bg2.gif) no-repeat top left;
+    height: 32px !important;
+    height: 35px;
+}
+.Nleft2
+{
+    float: left;
+    background: url(../frontImage/images/td_bg2.gif) no-repeat top left;
+    border-left: 1px solid #fff;
+    margin-left: -1px;
+}
+.Nleft2 span
+{
+    float: left;
+    background: url(../frontImage/images/time.gif) no-repeat 6px center;
+    padding-left: 28px;
+    height: 34px;
+    color: #006699;
+    line-height: 32px;
+}
+.Nleft2 .see-list
+{
+    float: left;
+    margin-left: 15px;
+    line-height: 34px;
+}
+.Nleft2 .see-list a
+{
+    color: #009900;
+}
+.Nleft
+{
+    float: left;
+    padding-top: 3px;
+}
+.Nright
+{
+    float: right;
+    margin-right: 6px;
+    padding-top: 0px !important;
+    padding-top: 2px;
+    line-height: 32px;
+}
+.Nright2
+{
+    float: right;
+    margin-right: 6px;
+    padding-top: 3px;
+}
+.Nright span
+{
+    font-family: Georgia,Tahoma, Verdana,snas-serif;
+}
+.Nright a:link, .Nright a:visited
+{
+    color: #333;
+}
+.Nright a:hover, .Nright a:active
+{
+    color: #666;
+    text-decoration: underline;
+}
+.see-line
+{
+    float: left;
+    margin-left: 15px;
+    line-height: 34px;
+    color: #eee;
+}
+.see-line2
+{
+    margin-right: 2px;
+    margin-left: 2px;
+    line-height: 34px;
+    color: #eeeeee;
+}
+.Nleft3
+{
+    float: left;
+    width: 75%;
+    background: url(../frontImage/images/dot-ad.gif) no-repeat left center;
+    border-left: 1px solid #fff;
+    line-height: 28px;
+    color: #333333;
+    padding-left: 30px;
+}
+.Nleft3 div
+{
+    text-align: left;
+}
+/*-------------top说锟斤拷锟斤拷锟斤拷锟�---------------*/
+
+/*-------------middle说锟斤拷锟斤拷锟斤拷锟�---------------*/
+#bbs-detail-nav2
+{
+    width: 100%;
+    border-top: 1px solid #e6eef7;
+    border-bottom: 2px solid #fff;
+    min-width: 750px;
+    background: #F5FAFE url(../frontImage/images/bg-line.gif) repeat-y 178px top !important;
+    background: #F5FAFE url(           "../frontImage/images/bg-line.gif" ) repeat-y 179px top;
+    text-align: left;
+}
+.Dleft2
+{
+    float: left;
+    width: 177px !important;
+    width: 178px;
+    color: #0099cc;
+    background: url(../frontImage/images/td_bg2.gif) no-repeat top left;
+    
+}
+.Dleft2 #photo_img
+{
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 6px;
+}
+.Dleft2 .photoimg
+{
+    border: 1px solid #B4C9E0;
+    background-color: #fff;
+    padding: 2px;
+}
+.Dleft2 h3
+{
+    font-weight: lighter;
+    color: #006699;
+    line-height: 18px;
+    padding-left: 9px;
+    margin: 6px;
+}
+.Dleft2 .face
+{
+    line-height: 18px;
+    padding-left: 15px;
+    height: 18px;
+}
+.Dleft2 .tools
+{
+    margin: 6px;
+    text-align: left;
+    height: auto !important;
+    height: 40px;
+    min-height: 40px;
+}
+.Dleft2 .tools img
+{
+    border: 0px;
+    padding: 4px;
+}
+.Dleft2 #user-message
+{
+    padding-left: 15px;
+    
+}
+#user-message span
+{
+    font-family: Georgia,Tahoma, Verdana,snas-serif;
+}
+.Dspace
+{
+    width: 170px;
+    /*background: url(../frontImage/images/line-middle.gif) repeat-x left center;
+    height: 2px;
+    line-height: 2px;
+    */
+    margin: 0 auto;
+    margin-top: 6px;
+    
+    
+}
+.Dspace2
+{
+    width: 75px;
+    background: url(../frontImage/images/line-middle.gif) repeat-x left center;
+    margin: 0 auto;
+    height: 2px;
+    line-height: 2px;
+}
+.Dspace3
+{
+    width: 32px;
+    background: url(../frontImage/images/line-middle.gif) repeat-x left center;
+    margin: 0 auto;
+    margin-top: 2px;
+    height: 2px;
+    line-height: 2px;
+}
+.writer-Name
+{
+    width: 100%;
+    background: url(../frontImage/images/line-middle.gif) repeat-x left center;
+    margin: 0 auto;
+    margin-top: 6px;
+    height: 2px;
+    line-height: 2px;
+    margin-bottom: 6px;
+}
+.Dleft2 ul
+{
+    list-style: none;
+}
+.Dleft2 li
+{
+    line-height: 18px;
+    color: #999;
+}
+.Dleft2 span
+{
+    padding-left: 3px;
+    color: #30516D;
+}
+.Dright2
+{
+    float: none !important;
+    float: left;
+    margin-left: 180px !important;
+    margin-left: 1px;
+    color: #006699;
+    text-align: left;
+    min-height: 145px;
+}
+.Dright2 .article
+{
+    overflow: hidden;
+    word-break: break-all;
+    letter-break: break-all;
+    color: #333;
+    padding: 30px;
+    padding-top: 15px;
+    background: url(../frontImage/images/td_bg2.gif) no-repeat 1px top;
+}
+.article h3
+{
+    color: #3F4E5A;
+    line-height: 24px;
+}
+.Dright2 .QUOTE
+{
+    width: 86%;
+    border-left: 1px solid #d7e3f2;
+    border-right: 1px solid #d7e3f2;
+    border-bottom: 1px solid #d7e3f2;
+    border-top: 5px solid #d7e3f2;
+    margin-left: 40px !important;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+.QUOTE .text
+{
+    background: #f5fafe url(../frontImage/images/td_bg2.gif) no-repeat top left;
+    border-bottom: 4px solid #fff;
+    padding-left: 14px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.Dright2 h1
+{
+    font-size: 12px;
+    color: #3F4E5A;
+}
+.Dright2 h1 img
+{
+    padding-right: 4px;
+}
+.text h2
+{
+    color: #333;
+    font-weight: normal;
+    padding-top: 6px;
+}
+#bbs-detail-nav3
+{
+    border-top: 1px solid #9db6c8;
+    border-bottom: 1px solid #9db6c8;
+    background-color: #d7e3f2;
+    height: 6px !important;
+    height: 8px;
+    line-height: 6px !important;
+    line-height: 8px;
+    display: block;
+}
+.detail-area
+{
+    float: left;
+    color: #3F4E5A;
+    font-weight: bold;
+    line-height: 28px;
+    padding-left: 10px;
+}
+.detail-area span
+{
+    font-size: 8px;
+    padding-left: 3px;
+    padding-right: 3px;
+    line-height: 28px;
+}
+.detail-area a:link
+{
+    color: #3F4E5A;
+    text-decoration: none;
+}
+.detail-area a:hover
+{
+    color: #3F4E5A;
+    text-decoration: underline;
+}
+.detail-manager
+{
+    background-color: #F5FAFE;
+    border-top: 1px solid #e6eef7;
+    text-align: left;
+    padding-left: 4px;
+    height: 39px;
+    line-height: 38px;
+}
+.lightbutton
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #003366;
+    font-weight: normal;
+    background-color: #F5FAFE;
+    border: 1px solid #95D2F0;
+    height: 24px;
+    margin-top: 6px;
+}
+.detail-area
+{
+    float: left;
+    color: #3F4E5A;
+    font-weight: bold;
+    line-height: 28px;
+    padding-left: 10px;
+}
+.detail-area span
+{
+    font-size: 8px;
+    padding: 3px;
+}
+.bold
+{
+    padding-left: 10px;
+}
+/* ------------锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷式锟斤拷始-------------------- */
+.normalname
+{
+    font-weight: bold;
+    color: #0099cc;
+    border: 1px solid #F5FAFE;
+    background: url(../frontImage/images/dot-down2.gif) no-repeat right center;
+    width: 165px;
+    height: 26px;
+    line-height: 26px;
+    margin: 0 auto;
+    cursor: pointer;
+    margin-top: 2px;
+}
+.normalname img
+{
+    padding: 6px;
+}
+.normalname-bg
+{
+    border: 1px solid #E6EEF7;
+    background: url(../frontImage/images/name-bg.gif) repeat-x left center;
+    width: 165px;
+    height: 26px;
+    line-height: 26px;
+    margin: 0 auto;
+    margin-top: 2px;
+    color: #0099cc;
+    cursor: pointer;
+}
+.normalname-bg img
+{
+    padding: 6px;
+}
+.popmenubutton-new
+{
+    color: #0099cc;
+    float: none;
+    white-space: nowrap;
+    text-align: left;
+    height: 37px;
+    line-height: 37px;
+    text-decoration: none;
+}
+.popmenubutton-new-out
+{
+    text-align: left;
+    color: #0099cc;
+    font-size: 12px;
+    font-weight: bold;
+    height: 35px;
+    line-height: 35px;
+}
+.popupmenu-new
+{
+    margin-left: 0px;
+    border-right: 3px solid #D7E3F2;
+    border-bottom: 3px solid #D7E3F2;
+    width: 175px;
+    text-align: left;
+    margin-top: 0px !important;
+    margin-top: 5px;
+}
+.popupmenu-item
+{
+    white-space: nowrap;
+    color: #000000;
+}
+.popupmenu-item .itemlast
+{
+    padding-left: 18px;
+    line-height: 22px;
+}
+.itemlast a
+{
+    color: #666666;
+}
+.popupmenu-item .tools
+{
+    font-size: 10px;
+    color: #0099CC;
+    font-family: Tahoma, Verdana,snas-serif;
+    text-align: center;
+}
+.tools img
+{
+    padding-right: 6px;
+}
+.popupmenu-item-last
+{
+    border-right: 1px solid #9DB6C8;
+    border-bottom: 1px solid #9DB6C8;
+    padding: 5px;
+    white-space: nowrap;
+    color: #000000;
+    font-weight: normal;
+    background: #F5FAFE url(../frontImage/images/td_bg3.gif) no-repeat left top;
+}
+
+/* ------------锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷式锟斤拷锟斤拷-------------------- */
+
+.t_signature
+{
+    height: expression(signature(this));
+}
+.t_smallfont, .t_smallfont div
+{
+    font-size: 12px;
+    line-height: 160%;
+}
+.t_msgfont
+{
+    overflow: hidden;
+    padding-top: 6px;
+    font-size: 14px;
+    line-height: 160%;
+}
+.t_msgfont img
+{
+    max-width: 760px;
+    width: expression( this.width > 760 ? "760px" : this.width+ "px" );
+}
+.t_bigfont, .t_bigfont div
+{
+    font-size: 16px;
+    line-height: 160%;
+}
+.t_smallfont *, .t_msgfont *, .t_bigfont *
+{
+    line-height: normal !important;
+}
+.msgheader
+{
+    margin: 0 2em;
+    border-left: 1px solid #d7e3f2;
+    border-right: 1px solid #d7e3f2;
+    border-top: 5px solid #d7e3f2;
+    background: #f5fafe url(../frontImage/images/td_bg2.gif) no-repeat top left;
+    padding: 4px;
+}
+.msgborder
+{
+    margin: 0 2em;
+    padding: 10px;
+    border-left: 1px solid #d7e3f2;
+    border-right: 1px solid #d7e3f2;
+    border-bottom: 1px solid #d7e3f2;
+    word-break: break-all;
+    background-color: #f5fafe;
+}
+.right
+{
+    float: right;
+    text-align: right;
+    padding-right: 4px;
+    margin-right: 0 !important;
+}
+
+/*----------------------------------*/
+/*锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷细锟斤拷锟斤拷锟斤拷式锟斤拷锟斤拷 锟斤拷锟斤拷*/
+/*----------------------------------*/
+
+/*----------------------------------*/
+/*投票锟斤拷锟斤拷锟斤拷锟斤拷投票锟斤拷式锟斤拷锟斤拷 锟斤拷始*/
+/*----------------------------------*/
+#bbs-ticket-nav
+{
+    border: 1px solid #e4ecf6;
+    margin-top: 9px;
+}
+#Ktop
+{
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    border-bottom: 3px solid #fff;
+    background: #f5fafe url(../frontImage/images/td_bg3.gif) no-repeat left top;
+    height: 32px !important;
+    height: 35px;
+    height: 32px;
+    text-align: left;
+}
+.KPleft
+{
+    float: left;
+    width: 80%;
+    line-height: 32px;
+    margin-top: 0px !important;
+    margin-top: 8px;
+    margin-left: 8px;
+}
+#KPleft img
+{
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 6px;
+}
+
+/*-------------bbs-ticket center  style start-------------*/
+#Kcenter
+{
+    border-top: 1px solid #e6eef7;
+    border-bottom: 2px solid #fff;
+    background-color: #f5fafe;
+}
+#Kcenter #kleft
+{
+    float: left;
+    border-top: 1px solid #fff;
+    background: #f5fafe url(../frontImage/images/td_bg3.gif) no-repeat left top;
+    border-right: 1px solid #e6eef7;
+    border-left: 1px solid #fff;
+    width: 350px;
+}
+#kleft div
+{
+    margin-left: 12px;
+    padding-left: 15px;
+    padding-top: 8px;
+    text-align: left;
+    border-right: 1px solid #fff;
+    padding-bottom: 6px;
+}
+#kleft input
+{
+    margin-right: 8px;
+}
+
+#Kcenter #kright
+{
+    float: left;
+    border-top: 1px solid #fff;
+    background-color: #f5fafe;
+    line-height: 32px;
+}
+#ticket-show
+{
+    float: left;
+    width: 300px;
+    height: 12px !important;
+    height: 13px;
+    border-bottom: 1px solid #fff;
+    background: url(../frontImage/images/ticket_bg.gif) repeat-x top left;
+    margin-left: 15px;
+    margin-top: 12px;
+    text-align: left;
+}
+#ticket-show div
+{
+    background: url(../frontImage/images/ticket.gif) repeat-x top left;
+    height: 12px;
+}
+/*-------------bbs-ticket center  style end-------------*/
+
+/*-------------bbs-ticket bottom  style start-------------*/
+#ticket-add
+{
+    clear: both;
+    border-left: 1px solid #ffffff;
+    border-right: 1px solid #ffffff;
+    height: 43px;
+    line-height: 42px;
+}
+#ticket-add #add-area
+{
+    height: 40px;
+    padding-left: 45px;
+    text-align: left;
+}
+#ticket-add input
+{
+    margin-top: 8px;
+}
+/*-------------bbs-ticket bottom  style end-------------*/
+
+/*----------------------------------*/
+/*投票锟斤拷锟斤拷锟斤拷锟斤拷投票锟斤拷式锟斤拷锟斤拷 锟斤拷锟斤拷*/
+/*----------------------------------*/
+
+/*----------------------------------*/
+/*锟斤拷锟解及锟截革拷锟洁辑锟斤拷锟斤拷锟斤拷锟藉处锟斤拷式锟斤拷锟藉开始*/
+/*----------------------------------*/
+.from-nav
+{
+    clear: both;
+    /*border-bottom: 1px solid #D1E1EF;*/ /*--------------------锟截憋拷说锟斤拷:锟斤拷锟斤拷锟斤拷锟教筹拷斜?锟斤拷锟斤拷指锟斤拷呖锟斤拷锟斤拷诖烁锟斤拷---------------------------*/
+    background-color: #F5FAFE; /*--------------------锟截憋拷说锟斤拷:锟斤拷锟斤拷锟斤拷锟教筹拷斜?锟斤拷锟津背撅拷色锟斤拷锟斤拷锟节此革拷锟�--------------------------*/
+    min-width: 750px;
+    text-align: left;
+    color: #666;
+    zoom: 1;
+    overflow: hidden;
+	height:55px;
+}
+.from-nav .Mtitle
+{
+    float: left;
+    width: 30%;
+    border-top: 1px solid #fff;
+    background: url(../frontImage/images/table_bg2.gif) no-repeat top left;
+    height: 34px;
+    min-height: 34px;
+    line-height: 33px;
+    text-align: right;
+}
+.from-nav .Mright
+{
+    float: right;
+    width: 68%;
+    border-left: 1px solid #fff;
+    border-top: 1px solid #fff;
+    height: auto !important;
+    height: 34px;
+    background: url(../frontImage/images/table_bg2.gif) no-repeat -1px top;
+    min-height: 34px;
+    padding-left: 10px;
+    text-align: left;
+}
+
+.from-nav .text {
+    border: 1px solid #B9CDE3;
+    font-family: arial,"????";
+    font-size: 14px;
+    height: 16px;
+    padding: 4px 3px;
+    width: 240px;
+}
+
+.from-nav .text-1{
+	width: 100px;
+}
+
+.from-nav  .highlight1 {
+    border: 1px solid #EFA100;
+    outline: 2px solid #FFDC97;
+}
+.from-nav  .highlight2 {
+    border: 1px solid #FF0000;
+    color: #FF0000;
+    outline: 1px solid #FFC1C1;
+}
+
+.from-nav  .succeed {
+    background: url("../frontImage/images/check_right.gif") no-repeat scroll -105px 0 transparent;
+}
+
+.from-nav .blank {
+    height: 16px;
+    margin: 2px 5px 0;
+    width: 16px;
+}
+
+.from-nav .focus {
+    color: #999999;
+    line-height: 22px;
+}
+.from-nav .null, .from-nav .error {
+    color: red;
+    line-height: 22px;
+}
+
+.Mright h1
+{
+    font-weight: normal;
+    margin-top: 10px;
+}
+.radioinput
+{
+    margin-left: 4px;
+}
+
+#form-Tbody
+{
+    border-bottom: 1px solid #B4C9E0; /*--------------------锟截憋拷说锟斤拷:锟斤拷锟斤拷锟斤拷锟教筹拷斜?锟斤拷锟斤拷指锟斤拷呖锟斤拷锟斤拷诖烁锟斤拷---------------------------*/
+    background-color: #F5FBFF; /*--------------------锟截憋拷说锟斤拷:锟斤拷锟斤拷锟斤拷锟教筹拷斜?锟斤拷锟津背撅拷色锟斤拷锟斤拷锟节此革拷锟�--------------------------*/
+    text-align: left;
+    zoom: 1;
+    overflow: hidden;
+}
+.from-nav span
+{
+    margin-left: 20px;
+}
+.from-nav input
+{
+    margin-top: 7px;
+}
+.from-nav select
+{
+    margin-top: 7px;
+}
+.editer-smile
+{
+    border: 1px solid #B4C9E0; /*--------------------锟截憋拷说锟斤拷:锟斤拷锟斤拷锟斤拷锟教筹拷锌锟捷回革拷锟斤拷锟街憋拷锟斤拷色锟斤拷锟斤拷锟节此革拷锟�--------------------------*/
+    height: 120px;
+    width: 145px;
+    text-align: center;
+    z-index: 1;
+}
+.editer-smile img
+{
+    margin: 2px;
+    padding: 2px;
+}
+.btn-area
+{
+    border-bottom: 0px;
+    height: 36px;
+    text-align: left;
+    padding-left: 330px;
+    clear: both;
+    line-height: 36px;
+    background-color: #F5FAFE; /*--------------------锟截憋拷说锟斤拷:锟斤拷锟斤拷锟斤拷锟教筹拷斜?锟斤拷锟斤拷锟结交锟斤拷钮锟斤拷锟津背撅拷色锟斤拷锟斤拷锟节此革拷锟�--------------------------*/
+    margin-top: 1px;
+}
+.altbg1
+{
+    font: 12px Tahoma, Verdana;
+}
+.altbg2
+{
+    background: #ffffff;
+    font: 12px Tahoma, Verdana;
+}
+/*----------------------------------*/
+/*锟斤拷锟解及锟截革拷锟洁辑锟斤拷锟斤拷式锟斤拷锟斤拷 锟斤拷锟斤拷*/
+/*----------------------------------*/
+
+/*----------------------------------*/
+/*锟斤拷锟剿匡拷锟斤拷锟斤拷锟斤拷锟斤拷锟绞斤拷锟斤拷锟�锟斤拷始*/
+/*----------------------------------*/
+
+#control-pannel-nav
+{
+    clear: both;
+    float: left;
+    width: 100%;
+    padding-top: 4px;
+    min-width: 750px;
+    display: inline;
+}
+#control-pannel-nav .Conleft
+{
+    float: left;
+}
+#control-pannel-nav .Conright
+{
+    margin-left: 180px;
+}
+/*---------------------------left start-----------------------------------*/
+#control-pannel-nav .Conpanel
+{
+    width: 161px !important;
+    width: 162px;
+    float: left;
+    border: 1px solid #B4C9E0;
+    background: #F5FAFE;
+}
+#control-pannel-nav .Conpanel .title-bg
+{
+    background: url(../frontImage/images/control_title.gif) repeat-x top left;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    height: 30px;
+    line-height: 30px;
+    width: 159px !important;
+    width: 160px;
+    margin: 1px;
+}
+#control-pannel-nav .Conpanel .title-bg2
+{
+    background: url(../frontImage/images/control_title2.gif) no-repeat;
+    text-align: left;
+    text-indent: 8px;
+    color: #3F4E5A;
+    font-weight: bold;
+    height: 30px;
+    line-height: 30px !important;
+    line-height: 25px;
+    width: 160px !important;
+    width: 161px;
+    border-top: 1px solid #B4C9E0;
+    border-bottom: 1px solid #B4C9E0;
+}
+#control-pannel-nav .Conpanel .title-bg3
+{
+    background: url(../frontImage/images/control_title3.gif) no-repeat;
+    text-align: left;
+    text-indent: 8px;
+    color: #3F4E5A;
+    font-weight: bold;
+    height: 30px;
+    line-height: 30px !important;
+    line-height: 25px;
+    width: 160px !important;
+    width: 161px;
+    border-top: 1px solid #B4C9E0;
+    border-bottom: 1px solid #B4C9E0;
+}
+.editer-dot3
+{
+    margin-left: 8px;
+    padding: 10px 0;
+}
+.editer-dot3 ul
+{
+    list-style: none;
+}
+.editer-dot3 li
+{
+    text-align: left;
+    line-height: 180%;
+}
+.editer-dot3 li span
+{
+    color: #000;
+}
+.editer-dot3 li strong
+{
+    font-weight: normal;
+    color: #0099CC;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.editer-dot3 a
+{
+    color: #3F4E5A;
+    text-decoration: none;
+}
+.editer-dot3 a:hover
+{
+    color: #258DC9;
+    text-decoration: underline;
+}
+.editer-dot3 span
+{
+    color: #0099CC;
+}
+.editer-space
+{
+    width: 200px;
+    margin: 0 auto;
+    background: url(../frontImage/images/space.gif) repeat-x left center;
+}
+/*---------------------------left end-----------------------------------*/
+.welcome
+{
+    text-align: left;
+    background: #F5FAFE url(../frontImage/images/light.gif) no-repeat 10px center;
+    padding-left: 28px;
+    border-bottom: 1px solid #DCE6F1;
+    line-height: 25px;
+    height: 25px !important;
+    height: 26px;
+}
+.wbody
+{
+    margin-top: 6px;
+    text-align: center;
+}
+#control-left2
+{
+    float: right;
+    width: 100%;
+    text-align: center;
+}
+#pannel-list-nav
+{
+    clear: both;
+    border-left: 1px solid #B4C9E0;
+    border-right: 1px solid #B4C9E0;
+    border-top: 1px solid #B4C9E0;
+    margin-bottom: 6px;
+}
+#pannel-list-nav2
+{
+    clear: both;
+    border-left: 1px solid #DCE6F1;
+    border-right: 1px solid #DCE6F1;
+    border-top: 1px solid #DCE6F1;
+    margin-bottom: 6px;
+}
+#control-pannel-nav .pannel-th
+{
+    border: 1px solid #ffffff;
+    background: #fff url(../frontImage/images/title_bg.jpg) repeat-x left top;
+    color: #095F93;
+    height: 28px !important;
+    height: 30px;
+    line-height: 28px;
+    text-align: center;
+}
+#control-pannel-nav .pannel-th-r
+{
+    float: right;
+    width: 300px;
+}
+#control-pannel-nav .Htitle1
+{
+    float: left;
+    border-left: 1px solid #fff;
+}
+.checkbox
+{
+    margin-top: 5px;
+}
+.pannel-list
+{
+    border-bottom: 2px solid #fff;
+    border-top: 1px solid #D1E1EF;
+    background-color: #f5fafe;
+    height: auto !important;
+    height: 39px;
+    min-height: 39px;
+}
+.pannel-th-r2
+{
+    float: right;
+    width: 300px;
+    text-align: center;
+}
+.pannel-th-r3
+{
+    float: right;
+    width: 410px;
+    text-align: center;
+}
+.pannel-th-r4
+{
+    float: right;
+    width: 600px;
+    text-align: center;
+}
+.pannel-th-r5
+{
+    float: right;
+    width: 700px;
+    text-align: center;
+    border-top: 1px solid #fff; ;
+}
+.pannel-list .Htitle2
+{
+    float: left;
+    background: url(../frontImage/images/table_bg2.gif) no-repeat top left;
+    min-height: 36px;
+    text-align: center;
+}
+.pannel-list .Htitle2 a
+{
+    color: #666;
+}
+.pannel-s
+{
+    float: left;
+    text-align: center;
+    width: 36px;
+    background: url(../frontImage/images/table_bg2.gif) no-repeat top left;
+}
+.pannel-s img
+{
+    margin-top: 10px;
+}
+.panneltitle
+{
+    border-top: 1px solid #fff;
+    background: url(../frontImage/images/table_bg2.gif) no-repeat top left;
+    margin-left: 35px !important;
+    margin-left: 36px;
+    line-height: 33px;
+    text-align: left;
+    padding-left: 12px;
+    color: #003366;
+}
+.panneltitle a
+{
+    color: #003366;
+    text-decoration: none;
+}
+.panneltitle img
+{
+    padding-top: 11px;
+}
+#panel-right
+{
+    border: 1px solid #b4c9e0;
+    background-color: #F5FAFE;
+    width: 99.5%;
+}
+#head-bg
+{
+    background: url(../frontImage/images/bbs_title_bg.gif) repeat-x 1px top;
+    height: 31px;
+    font-weight: bold;
+    color: #fff;
+    line-height: 30px;
+    text-align: center;
+}
+#photo-img
+{
+    clear: both;
+    margin-left: 20px;
+    float: left;
+    text-align: center;
+    height: 140px;
+    margin-right: 20px;
+}
+#photo-img img
+{
+    border: 1px solid #B4C9E0;
+    background-color: #fff;
+    padding: 2px;
+    margin-top: 12px;
+}
+ul#photo
+{
+    list-style: none;
+    padding: 6px;
+}
+ul#photo li
+{
+    float: left;
+    width: 23%;
+    height: 135px;
+}
+.formlist
+{
+    width: 100%;
+    margin: 0 auto;
+    text-align: left;
+}
+/*label
+{
+    float: left;
+    width: 186px;
+    line-height: 30px;
+    background: #F5FAFE;
+}*/
+.textarea
+{
+    width: 250px;
+    height: 150px;
+}
+.br
+{
+    clear: left;
+}
+.file-message
+{
+    width: 100%;
+    text-align: left;
+}
+.file-message .file-left
+{
+    float: left;
+    text-align: left;
+    width: 48%;
+    padding-left: 10px;
+    line-height: 40px;
+}
+.file-left em
+{
+    font-style: normal;
+    background: url(../frontImage/images/message_0.gif) no-repeat left center;
+    padding-left: 25px;
+}
+.file-left strong
+{
+    font-style: normal;
+    background: url(../frontImage/images/message_1.gif) no-repeat left center;
+    padding-left: 25px;
+    font-weight: normal;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+.file-left img
+{
+    padding-top: 6px;
+}
+.file-message .file-right
+{
+    float: right;
+    width: 48%;
+    text-align: right;
+}
+
+/*-------------锟斤拷锟斤拷诙锟斤拷锟斤拷锟斤拷锟绞憋拷浠拷锟斤拷锟绞斤拷锟斤拷蹇�---------------*/
+.pannel-list-on
+{
+    border-bottom: 2px solid #fff;
+    border-top: 1px solid #D1E1EF; /*--------------------锟截憋拷说锟斤拷:锟斤拷锟斤拷锟斤拷锟教筹拷锌锟斤拷锟斤拷锟斤拷锟叫憋拷页锟斤拷幕锟斤拷锟街拷锟侥分革拷锟竭匡拷锟斤拷锟节此革拷锟�--------------------------*/
+    background-color: #F9FCFF; /*--------------------锟截憋拷说锟斤拷:锟斤拷锟斤拷锟斤拷锟教筹拷锌锟斤拷锟斤拷锟斤拷锟叫憋拷页锟斤拷幕锟斤拷锟街拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷姹筹拷锟缴拷锟斤拷锟斤拷诖烁锟斤拷---------------*/
+    height: auto !important;
+    height: 39px;
+    min-height: 39px;
+}
+.pannel-list-on .Htitle2
+{
+    float: left;
+    background: url(../frontImage/images/table_bg3.gif) no-repeat top left;
+    min-height: 36px;
+    text-align: center;
+}
+.pannel-list-on .pannel-s
+{
+    float: left;
+    text-align: center;
+    width: 36px;
+    background: url(../frontImage/images/table_bg3.gif) no-repeat top left;
+}
+.pannel-list-on .pannel-s img
+{
+    margin-top: 10px;
+}
+.pannel-list-on .panneltitle
+{
+    border-top: 1px solid #fff;
+    background: url(../frontImage/images/table_bg3.gif) no-repeat top left;
+    margin-left: 35px !important;
+    margin-left: 36px;
+    line-height: 33px;
+    text-align: left;
+    padding-left: 12px;
+}
+.pannel-list-on .panneltitle a
+{
+    color: #258DC9;
+    text-decoration: none;
+}
+/*-------------锟斤拷锟斤拷诙锟斤拷锟斤拷锟斤拷锟绞憋拷浠拷锟斤拷锟绞斤拷锟斤拷锟斤拷锟斤拷----------------*/
+
+
+/*----------------------------------*/
+/*锟斤拷锟剿匡拷锟斤拷锟斤拷锟斤拷锟斤拷锟绞斤拷锟斤拷锟�锟斤拷锟斤拷*/
+/*----------------------------------*/
+
+/*----------------------------------*/
+/*锟斤拷锟斤拷注锟斤拷锟斤拷锟斤拷式锟斤拷锟斤拷 锟斤拷始*/
+/*----------------------------------*/
+.detail-message2
+{
+    text-align: left;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #D1E1EF;
+    color: #666;
+    line-height: 27px;
+    background-image: url(../frontImage/images/title_bg.jpg);
+    padding-left: 15px;
+    font-weight: bold;
+}
+.reg-nav2
+{
+    border-bottom: 1px solid #D1E1EF;
+    text-align: center;
+}
+ul#template
+{
+    list-style: none;
+    width: 100%;
+    margin: 0 auto;
+}
+ul#template li
+{
+    float: left;
+    width: 45%;
+    text-align: center;
+    padding: 10px;
+}
+ul#template img
+{
+    margin: 1px;
+    border: 1px solid #ccc;
+}
+/*----------------------------------*/
+/*锟斤拷锟剿匡拷锟斤拷锟斤拷锟斤拷锟斤拷锟绞斤拷锟斤拷锟�锟斤拷锟斤拷*/
+/*----------------------------------*/
+
+/*----------------------------------*/
+/*锟矫伙拷锟斤拷息锟斤拷锟斤拷 锟斤拷锟斤拷式锟斤拷锟斤拷 锟斤拷始*/
+/*----------------------------------*/
+#user-info
+{
+    clear: both;
+    margin: 0;
+    padding: 0;
+    float: left;
+    width: 100%;
+}
+#user-info .info-left
+{
+    width: 48%;
+    float: left;
+}
+#user-info .info-right
+{
+    width: 48%;
+    float: right;
+}
+#newpmcount
+{
+    color: #0099CC;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+#photo-img2
+{
+    float: left;
+    margin-left: 20px;
+    height: auto !important;
+    height: 100px;
+    min-height: 100px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+#photo-img2 img
+{
+    border: 1px solid #B4C9E0;
+    background-color: #fff;
+    padding: 2px;
+    margin-top: 12px;
+}
+.Ulist
+{
+    margin-left: 0px;
+}
+.Ulist ul
+{
+    list-style: none;
+}
+.Ulist li
+{
+    text-align: left;
+    line-height: 22px;
+    border-top: 1px solid #D1E1EF;
+    color: #003366;
+    background-color: #F5FAFE;
+    margin-bottom: 1px;
+}
+.Ulist li img
+{
+    padding: 4px;
+}
+/*----------------------------------*/
+/*锟矫伙拷锟斤拷息锟斤拷锟斤拷锟斤拷锟斤拷式锟斤拷锟斤拷 锟斤拷锟斤拷*/
+/*----------------------------------*/
+
+/*----------------------------------*/
+/*锟斤拷锟斤拷式锟揭诧拷说锟斤拷锟斤拷锟绞斤拷锟斤拷锟�锟斤拷始*/
+/*----------------------------------*/
+#forum-logo
+{
+    height: 94px;
+    background-color: #fff;
+    background-image: url(../frontImage/images/clogo.gif);
+    background-repeat: no-repeat;
+    background-position: 55% 35%;
+    border-right: 8px solid #F7FBFD;
+}
+#forum-logo h1
+{
+    display: none;
+}
+
+#back
+{
+    height: 26px !important;
+    height: 27px;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid #fff;
+    background-color: #DEEFFA;
+    line-height: 26px;
+}
+.back-inner
+{
+    padding-left: 35px;
+    border-left: 1px solid #F5FAFD;
+    background: url(../frontImage/images/back.gif) no-repeat 25%;
+}
+.back-inner2
+{
+    padding-left: 30px;
+    background: url(../frontImage/images/back2.gif) no-repeat 13%;
+}
+#back a
+{
+    color: #0099CC;
+}
+.forum-top
+{
+    background: #DEEFFA url(../frontImage/images/open-topbg.gif) no-repeat left top;
+    width: 14px;
+    height: 115px;
+}
+.forumlist
+{
+    clear: both;
+    height: 26px;
+    line-height: 22px;
+    float: left;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.forumlist-left
+{
+    float: left;
+    text-align: left;
+    width: 49%;
+}
+.forumlist-right
+{
+    float: right;
+    text-align: right;
+    width: 49%;
+}
+.forumlist div
+{
+    height: 20px;
+    line-height: 20px;
+}
+/*----------------------------------*/
+/*锟斤拷锟斤拷式锟揭诧拷说锟斤拷锟斤拷锟绞斤拷锟斤拷锟�锟斤拷锟斤拷*/
+/*----------------------------------*/
+
+/*----------------------------------*/
+/*锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷斜锟斤拷械姆锟揭筹拷锟绞斤拷锟斤拷锟�锟斤拷始*/
+/*----------------------------------*/
+.pages-nav
+{
+    clear: both;
+    margin-top: 6px;
+    margin-bottom: 0px !important;
+    margin-bottom: -8px;
+}
+.page-center
+{
+    width: 100%;
+    text-align: center;
+    height:80px;
+    margin:0px;
+}
+.page-left
+{
+    float: left;
+    width: 65%;
+    text-align: left;
+}
+.page-allpages
+{
+    border: 1px solid #BDDAF7;
+    background: #ffffff url(../frontImage/images/td_bg2.gif) no-repeat 1px 1px;
+    text-align: center;
+    color: #4ab3e6;
+    line-height: 24px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+.page-allpages3
+{
+    border-top: 1px solid #BDDAF7;
+    border-right: 1px solid #BDDAF7;
+    border-bottom: 1px solid #BDDAF7;
+    background: #ffffff url(../frontImage/images/td_bg2.gif) no-repeat 1px 1px;
+    text-align: center;
+    color: #666;
+    padding-left: 4px;
+    padding-right: 4px;
+    line-height: 20px;
+}
+.page-allpages3 input
+{
+    height: 18px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+.page-allpages a
+{
+    color: #333333;
+    padding: 5px;
+    font-weight: normal;
+}
+.page-allpages a:hover
+{
+    color: #fff;
+    padding: 5px;
+    background: url(../frontImage/images/page-bg.gif) repeat-x top left;
+    font-weight: normal;
+}
+.page-right
+{
+    float: right;
+    width: 34%;
+    text-align: right;
+}
+.page-right2
+{
+    width: 200px;
+    float: right;
+    text-align: right;
+    padding-bottom: 5px;
+}
+.page-right div
+{
+    width: 78px;
+    float: left;
+}
+#page-listpage
+{
+    float: left;
+    background: url(../frontImage/images/page_list.gif) no-repeat top left;
+    width: 95px;
+    height: 26px;
+    line-height: 25px;
+    text-align: center;
+}
+#page-listpage2
+{
+    float: right;
+    background: url(../frontImage/images/page_list2.gif) no-repeat top left;
+    width: 77px;
+    height: 26px;
+    line-height: 25px;
+    text-align: center;
+}
+/*----------------------------------*/
+/*锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷斜锟斤拷械姆锟揭筹拷锟绞斤拷锟斤拷锟�锟斤拷锟斤拷*/
+/*----------------------------------*/
+
+/*----------------------------------*/
+/*锟斤拷坛锟斤拷转锟斤拷锟斤拷式锟斤拷锟斤拷 锟斤拷始*/
+/*----------------------------------*/
+#bbs-function-nav
+{
+    clear: both;
+    margin-top: 8px;
+    margin-bottom: 18px;
+    border: 1px solid #dfdfdf;
+    height: 38px !important;
+    height: 40px;
+}
+#bbs-function-nav .Fbg
+{
+    border: 1px solid #fff;
+    border-bottom: 2px solid #fff;
+    background: #fff url(../frontImage/images/function_bg.gif) repeat-x left top;
+    height: 30px !important;
+    height: 33px;
+    line-height: 33px;
+}
+#bbs-function-nav div
+{
+    float: left;
+    line-height: 30px;
+}
+#bbs-function-nav div .img
+{
+    padding: 8px;
+    padding-top: 10px;
+}
+#bbs-function-nav .divleft
+{
+    height: 24px;
+    line-height: 24px;
+    margin-top: 4px;
+}
+#bbs-function-nav .divcenter
+{
+    background: url(../frontImage/images/menu_list02.gif) repeat-x left top;
+    height: 24px;
+    line-height: 24px;
+    padding: 0px 12px;
+    margin-top: 4px;
+    text-align: center;
+}
+#bbs-function-nav .FNleft
+{
+    float: right;
+    line-height: 38px;
+}
+#bbs-function-nav select
+{
+    margin-top: 8px;
+}
+
+/*----------------------------------*/
+/*锟斤拷坛锟斤拷转锟斤拷锟斤拷式锟斤拷锟斤拷 锟斤拷锟斤拷*/
+/*----------------------------------*/
+
+
+/*----------------------------------*/
+/*锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷式锟斤拷锟斤拷 锟斤拷始*/
+/*----------------------------------*/
+#divPartners
+{
+    clear: both;
+    margin-top: 11px;
+    border: 1px solid #CEDCEB; /*---------------锟节此可革拷锟斤拷锟斤拷锟斤拷锟斤拷拥锟斤拷锟竭匡拷-------------------*/
+}
+#partners-title
+{
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    border-bottom: 2px solid #fff;
+    border-top: 1px solid #fff;
+    background: #f5fafe url(../frontImage/images/table_bg2.gif) no-repeat top left; /*---------------锟节此可革拷锟斤拷锟斤拷锟斤拷锟斤拷拥谋锟斤拷獗筹拷锟缴拷锟�------------------*/
+    height: 32px !important;
+    height: 35px;
+    padding-left: 14px;
+    text-align: left;
+}
+#partners-title h3
+{
+    float: left;
+    font-weight: normal;
+    color: #3F4E5A;
+    line-height: 32px;
+}
+#partners-list
+{
+    border-top: 1px solid #e6eef7;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    background: #f5fafe;
+    height: auto !important;
+    height: 50px;
+    min-height: 50px;
+}
+#partners-list .Pnleft
+{
+    float: left;
+    background: #f5fafe url(../frontImage/images/table_bg2.gif) no-repeat top left;
+    width: 54px;
+    line-height: 50px;
+    vertical-align: middle;
+    text-align: center;
+}
+#partners-list .Pnleft img
+{
+    padding-top: 10px;
+}
+#partners-list .Plist
+{
+    float: none !important;
+    float: left;
+    margin-left: 53px !important;
+    margin-left: 0px;
+    background: url(../frontImage/images/table_bg2.gif) no-repeat top left;
+    line-height: 48px;
+    padding-top: 6px;
+    text-align: left;
+}
+#Pnright
+{
+    background: transparent;
+    text-align: left;
+    padding-left: 10px;
+}
+#Pnright img
+{
+    padding-top: 5px;
+}
+ul#Pnright
+{
+    list-style: none;
+    background: transparent;
+}
+ul#Pnright li
+{
+    float: left;
+    margin-left: 10px;
+    line-height: 40px;
+    text-align: center;
+    padding-top: 6px;
+}
+ul#Pnright li a
+{
+    color: #3F4E5A;
+}
+ul#Pnright li a:hover
+{
+    color: #0099CC;
+}
+ul#Pnright li img
+{
+    margin-right: 12px;
+    width: 88px;
+    height: 31px;
+}
+#Pnright2
+{
+    margin-left: 36px;
+    background: url(../frontImage/images/table_bg2.gif) no-repeat top left;
+    padding: 10px;
+    text-align: left;
+}
+#divPartners #open
+{
+    margin-right: 6px;
+    width: 20px;
+    height: 20px;
+    float: right;
+    margin-top: 5px;
+    line-height: 20px;
+    vertical-align: middle;
+    text-align: center;
+}
+#divPartners #open img
+{
+    padding-top: 5px;
+}
+/*----------------------------------*/
+/*锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷式锟斤拷锟斤拷 锟斤拷锟斤拷*/
+/*----------------------------------*/
+
+/*----------------------------------*/
+/*锟斤拷锟斤拷锟矫伙拷锟斤拷锟斤拷式锟斤拷锟斤拷 锟斤拷始*/
+/*----------------------------------*/
+#divUser
+{
+    clear: both;
+    margin-top: 8px;
+    border: 1px solid #CEDCEB; /*---------------锟斤拷锟斤拷锟节此革拷锟斤拷锟斤拷锟斤拷没锟斤拷锟斤拷斜锟斤拷锟竭匡拷锟缴拷锟�------------------*/
+    color: #3F4E5A;
+}
+#User-title
+{
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    border-bottom: 3px solid #fff;
+    border-top: 1px solid #fff;
+    background: #f5fafe url(../frontImage/images/table_bg2.gif) no-repeat top left; /*---------------锟斤拷锟斤拷锟节此革拷锟斤拷锟斤拷锟斤拷没锟斤拷谋锟斤拷獗筹拷锟缴�------------------*/
+    height: 32px !important;
+    height: 35px;
+    padding-left: 14px;
+    line-height: 32px;
+}
+#User-title h3
+{
+    float: left;
+    font-weight: normal;
+    color: #3F4E5A;
+}
+#User-title .record
+{
+    background: url(../frontImage/images/time.gif) no-repeat left center;
+    font-family: Georgia,Tahoma, Verdana,snas-serif;
+    float: left;
+    color: #999;
+    font-weight: lighter;
+    padding-left: 20px;
+    margin-left: 15px;
+}
+#user-list
+{
+    border-top: 1px solid #e6eef7; /*---------------锟斤拷锟斤拷锟节此革拷锟斤拷锟斤拷锟斤拷没锟斤拷亩锟斤拷锟斤拷呖虮尘锟缴�------------------*/
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    border-bottom: 3px solid #fff;
+    background: #f5fafe; /*---------------锟斤拷锟斤拷锟节此革拷锟斤拷锟斤拷锟斤拷没锟斤拷谋锟斤拷獗筹拷锟缴�------------------*/
+    height: auto !important;
+    height: 66px;
+    min-height: 62px;
+}
+#user-list .Pnleft
+{
+    float: left;
+    background: url(../frontImage/images/table_bg2.gif) no-repeat top left;
+    width: 53px;
+    line-height: 64px;
+    text-align: center;
+    height: 64px;
+    border-right: 1px solid #fff;
+}
+#user-list .Pnleft img
+{
+    padding-top: 15px;
+}
+#user-list .Pnright
+{
+    float: none !important;
+    float: left;
+    margin-left: 55px !important;
+    margin-left: 0px;
+    background: url(../frontImage/images/table_bg2.gif) no-repeat top left;
+    padding-left: 17px;
+    padding-top: 6px;
+    text-align: left;
+}
+#footer1-nav
+{
+    height: 24px;
+}
+#footer2-nav
+{
+    height: 22px;
+    line-height: 22px;
+    text-align: left;
+}
+#footer1-nav ul
+{
+    list-style: none;
+}
+#footer1-nav li
+{
+    float: left;
+    margin-right: 10px;
+    text-align: left;
+}
+#footer1-nav li a
+{
+    display: block;
+    color: #333;
+}
+#footer1-nav li a:hover
+{
+    display: block;
+    color: #666;
+}
+
+.newuser
+{
+    background: url(../frontImage/images/dot_newuser.gif) no-repeat left center;
+    padding-left: 20px;
+    width: 260px;
+    padding-top: 3px;
+}
+.newuser a:link
+{
+    color: #666;
+    text-decoration: none;
+}
+.newuser a:hover
+{
+    color: #666;
+    text-decoration: none;
+}
+.newuser span
+{
+    color: #333;
+    text-decoration: underline;
+}
+#divUser #open
+{
+    margin-right: 6px;
+    width: 20px;
+    height: 20px;
+    float: right;
+    margin-top: 5px;
+    line-height: 20px;
+    vertical-align: middle;
+    text-align: center;
+}
+#divUser #open img
+{
+    padding-top: 5px;
+}
+.online-user
+{
+    margin-top: 4px;
+}
+ul#online
+{
+    list-style: none;
+}
+ul#online li
+{
+    float: left;
+    line-height: 24px;
+    text-align: left;
+    height: 24px;
+    min-height: 0px;
+}
+ul#online li img
+{
+    margin-right: 12px;
+}
+
+.line-middle
+{
+    background: url(../frontImage/images/line-middle.gif) repeat-x left center;
+    width: 97% !important;
+    width: 96%;
+    margin-left: 3px !important;
+    margin-left: 0px;
+    line-height: 4px;
+}
+
+/*----------------------------------*/
+/*锟斤拷锟斤拷锟矫伙拷锟斤拷锟斤拷式锟斤拷锟斤拷 锟斤拷锟斤拷*/
+/*----------------------------------*/
+
+
+/*----------------------------------*/
+/*锟斤拷锟斤拷锟斤拷锟阶拷锟酵凤拷锟斤拷锟�锟斤拷式锟斤拷锟斤拷 锟斤拷始*/
+/*----------------------------------*/
+#footer-GoTop-nav
+{
+    margin-top: 5px;
+    text-align: right;
+}
+/*----------------------------------*/
+/*锟斤拷锟斤拷锟斤拷锟阶拷锟酵凤拷锟斤拷锟�锟斤拷式锟斤拷锟斤拷 锟斤拷始*/
+/*----------------------------------*/
+
+/*----------------------------------*/
+/*锟斤拷识说锟斤拷 锟斤拷式锟斤拷锟斤拷 锟斤拷始*/
+/*----------------------------------*/
+#icon-nav
+{
+    clear: both;
+    padding-top: 24px;
+}
+#iconarea
+{
+    border: 1px solid #D6D6D6;
+    padding: 2px;
+    height: 49px !important;
+    height: 50px;
+    width: 294px;
+    margin: 0 auto;
+}
+#iconarea .icon
+{
+    height: 48px;
+    float: left;
+    background: #FAFAFA;
+    padding-left: 10px;
+    line-height: 48px;
+    text-align: left;
+}
+#icon-nav .Fright
+{
+    float: right;
+    margin-right: 10px;
+}
+#icon-nav .icon img
+{
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 5px;
+}
+
+/*----------------------------------*/
+/*锟斤拷识说锟斤拷 锟斤拷式锟斤拷锟斤拷 锟斤拷锟斤拷*/
+/*----------------------------------*/
+
+/*----------------------------------*/
+/*锟阶诧拷锟斤拷锟�锟斤拷式锟斤拷锟斤拷 锟斤拷始*/
+/*----------------------------------*/
+#bottom-ad
+{
+    clear: both;
+    padding-top: 9px;
+    margin: 0 auto;
+}
+/*----------------------------------*/
+/*锟阶诧拷锟斤拷锟�锟斤拷式锟斤拷锟斤拷 锟斤拷锟斤拷*/
+/*----------------------------------*/
+
+/*----------------------------------*/
+/*锟阶诧拷时锟斤拷锟斤拷示 锟斤拷式锟斤拷锟斤拷 锟斤拷始*/
+/*----------------------------------*/
+#time-nav
+{
+    clear: both;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 23px;
+    text-align: left;
+}
+#time-nav h1
+{
+    margin: 0 auto;
+    padding: 0px;
+    font-family: Georgia,Tahoma, Verdana,snas-serif;
+    font-size: 12px;
+    color: #999;
+    background: url(../frontImage/images/time.gif) no-repeat left center;
+    font-weight: lighter;
+    padding-left: 20px;
+    width: 290px;
+}
+/*----------------------------------*/
+/*锟阶诧拷时锟斤拷锟斤拷示 锟斤拷式锟斤拷锟斤拷 锟斤拷锟斤拷*/
+/*----------------------------------*/
+
+/*----------------------------------*/
+/*锟洁辑锟斤拷 锟斤拷式锟斤拷锟斤拷 锟斤拷始*/
+/*----------------------------------*/
+
+.popupmenu_popup
+{
+    background: #FFFFFF;
+    color: #000000;
+    border: 1px solid #698CC3;
+}
+.popupmenu_option
+{
+    background: #D6E0EF;
+    color: #000000;
+    font: 12px Tahoma, Verdana;
+    white-space: nowrap;
+    padding: 3px 8px;
+    cursor: pointer;
+}
+.popupmenu_option a
+{
+    color: #154ba0;
+    padding: 3px 8px;
+    text-decoration: none;
+}
+.popupmenu_option a:link
+{
+    color: #000000;
+    text-decoration: none;
+}
+.popupmenu_option a:visited
+{
+    color: #000000;
+    text-decoration: none;
+}
+.popupmenu_option a:hover, .popupmenu_option a:active
+{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+#posteditor_smilieytable img
+{
+    padding: 2px;
+}
+/*----------------------------------*/
+/*锟洁辑锟斤拷 锟斤拷式锟斤拷锟斤拷 锟斤拷始*/
+/*----------------------------------*/
+
+
+/*----------------------------------*/
+/*锟阶诧拷锟斤拷权 锟斤拷式锟斤拷锟斤拷 锟斤拷始*/
+/*----------------------------------*/
+#footer
+{
+    margin-top: 6px;
+    border-top: 1px solid #CCCCCC;
+    height: 61px !important;
+    height: 62px;
+}
+#footer .nav5
+{
+    color: #333;
+    height: 54px;
+    background: url(../frontImage/images/copyright-bg.jpg) repeat-x left top;
+    padding-left: 10px;
+}
+#footer .Fleft
+{
+    float: left;
+    padding-left: 51px;
+    margin-top: 15px;
+    margin-left: 6px;
+    line-height: 14px;
+    text-align: left;
+    background: url(../frontImage/images/copyright-dot.gif) no-repeat left center;
+}
+#footer .Fleft .copy
+{
+    color: #ccc;
+    font-size: 10px;
+}
+#footer .Fleft span
+{
+    color: #666;
+    font-size: 10px;
+}
+#footer .Fleft img
+{
+    padding: 6px;
+}
+.Fleft a
+{
+    color: #666;
+}
+#footer .Fright
+{
+    float: right;
+    margin-right: 0px;
+}
+#footer .gototop
+{
+    position: relative;
+    left: 0px !important;
+    left: 0px;
+    top: 10px;
+    margin-top: -1px;
+    margin-right: 0px;
+    text-align: right;
+    margin-bottom: 8px;
+}
+/*----------------------------------*/
+/*锟阶诧拷锟斤拷权 锟斤拷式锟斤拷锟斤拷 锟斤拷锟斤拷*/
+/*----------------------------------*/
+
+
+
+
+
+
+
+

@@ -1,0 +1,22 @@
+body {
+	margin: 0;
+	background-color: #CCCCCC;
+}
+
+#head {
+	background: url(../backImage/images/top-bg.gif) repeat-x;
+}   
+ 
+
+#head-nav{
+		float:right;  
+		color:#fff;
+		font-size:12px;
+		/*height:64px;*/
+		line-height:50px;
+		margin-right:20px;
+}
+
+#head-nav a{
+		color:#F0FFF0 ;
+}

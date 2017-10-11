@@ -1,0 +1,50 @@
+body{
+	margin:0; 
+	
+}
+
+ul{
+	list-style-type:none; 
+	margin:0;
+	padding:0;
+}
+
+h2{
+	margin:0;
+    padding:0;
+	background:url(../backImage/images/menu_bgs.gif) no-repeat;
+	width:182px;
+	height:30px;
+	text-align:center;
+	line-height:30px;
+	/*手型*/
+	cursor: pointer;
+}
+
+/*   *号代表所有元素*/
+*{
+	font-size:15px;
+}
+
+.sub_menu{
+	background: url(../backImage/images/menu_topline.gif) no-repeat;
+	/* 内上间距增加5px*/
+	padding-top:5px;   
+	
+}
+.sub_menu a{
+	background:url(../backImage/images/menu_bg1.gif) no-repeat;
+	display: block;
+	width:182px;
+	height:26;
+	line-height:26px;
+	text-align:center;
+	text-decoration:none;
+	/*color 直接指定颜色*/
+	color:#444444;
+}
+.sub_menu a:hover{
+	background: url(../backImage/images/menu_bg2.gif) no-repeat;
+	font-weight:bold;
+}
+

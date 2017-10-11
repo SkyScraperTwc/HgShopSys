@@ -1,0 +1,72 @@
+body{
+	margin:0;
+	background-color:#ffffff;
+	/*font-size:12px;*/
+}
+*{ 
+	font-size:13px;
+}
+
+#title{
+	background: url(/HgShopSys/resource/backImage/images/content-bg.gif) repeat-x;
+	height: 31px;
+	line-height: 28px;
+}
+.title{
+	background: url(/HgShopSys/resource/backImage/images/top_bt.jpg) no-repeat;
+	height: 26px;
+    width: 85px;
+    text-align:center;
+    font-weight:bold;
+}
+
+
+#position{
+	/*璁剧疆搴曡竟妗嗙嚎*/
+	border-bottom: 2px dotted #ccc;
+	padding:5px;
+}
+
+#cap{
+	border-bottom: 2px dotted #ccc;
+	padding:4px;
+	background-color:#00FA9A  ;  
+}
+
+#list_tb,#list_tb th,#list_tb td{
+	width: 850px;
+	border: 1px solid #999;
+	border-collapse:collapse;
+}
+#list_tb th,#list_tb td{
+	/*padding:5px;*/
+	height: 35px;
+	a{text-decoration:none;};
+}
+
+#search td{
+	height: 58px;
+	/*padding: 65px;*/
+}
+
+#button {
+	/*padding-top: 0px;*/
+	width: 70px;
+}
+/*.tbody a{
+	text-decoration: none;
+}*/
+
+.like_btn{
+	background-color:#FFDEAD    ;
+	padding: 3px 8px;
+	border-right: 1px solid #999999;
+	border-bottom: 1px solid #999999;
+	text-decoration: none;
+	color: #333333;
+	margin-right: 10px;
+	cursor: pointer;
+}
+.like_btn:hover{
+	color: #FF4500;
+}

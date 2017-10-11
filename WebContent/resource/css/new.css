@@ -1,0 +1,1411 @@
+#Content
+{
+    width: 1000px;
+    padding-top: 10px;
+    margin: 0 auto;
+    min-height: 500px;
+    height: 100%;
+}
+#BrandContent
+{
+    width: 800px;
+    padding-top: 10px;
+    margin: 0 auto;
+    min-height: 500px;
+    height: 100%;
+}
+#PromotionContent
+{
+    width: 800px;
+    padding-top: 10px;
+    margin: 0 auto;
+    min-height: 500px;
+    height: 100%;
+}
+#SearchDiv
+{
+    z-index: 0;
+    height: 100%;
+}
+#SearchBar
+{
+    background: url(../frontImage/images/SearchBarBg.png) repeat-x 0px 0px;
+    height: 37px;
+    line-height: 45px;
+    vertical-align: middle;
+    text-align:center;
+  
+}
+
+#SearchCenterBar
+{
+    width:1000px;
+   margin-left: auto;
+	  margin-right: auto;
+}
+#ibSearch
+{
+    width: 47px;
+    height: 20px;
+    background-image: url(../frontImage/images/search.gif);
+    cursor: pointer;
+    border: 0px;
+    margin: 0px;
+}
+.BlurSearchButton
+{
+    width: 65px;
+    height: 20px;
+    background-image: url(../frontImage/images/blursearch.gif);
+    cursor: pointer;
+    border: 0px;
+    margin: 0px;
+}
+#searchdivs
+{
+    padding-top: 5px;
+    vertical-align: middle;
+    line-height: 24px;
+    float: left;
+}
+#searchalldiv
+{
+    line-height: 24px;
+    vertical-align: top;
+    width: 180px;
+    float: left;
+    padding: 0px;
+    margin: 0px;
+    padding-top: 5px !important;
+}
+#searchalldiv a
+{
+    color: #FFFFFF;
+    font-size: 14px;
+}
+.SearchInput
+{
+    border: solid 1px #4194CF;
+    height: 20px;
+    width: 300px;
+}
+#searchdivs select
+{
+    line-height: 14px;
+    border: solid 1px #4194CF;
+    height: 20px;
+}
+
+#LeftDiv
+{
+    float: left;
+    width: 270px;
+}
+#CenterDiv
+{
+    float: right;
+    width: 720px;
+}
+#frontImage/imageshow
+{
+    width: 270px;
+    height: 190px;
+    border: solid 1px #AFC7CF;
+    margin-bottom: 10px;
+    margin: 0xp;
+}
+#HotForum
+{
+    width: 270px;
+    height: 586px;
+    border: solid 1px #AFC7CF;
+    margin-bottom: 10px;
+}
+#HotForumHead
+{
+    background: url(../frontImage/images/HotForumPaiHang.gif) no-repeat center;
+    height: 25px;
+}
+#HotForumTab
+{
+    color: #003366;
+    line-height: 28px;
+    background: url(../frontImage/images/hotbg.gif) repeat-x center;
+    height: 30px;
+}
+#HotForumCategory
+{
+    margin-left: 10px;
+    float: left;
+    width: 44px;
+    background: url(../frontImage/images/hottab.gif) no-repeat center;
+    height: 30px;
+}
+#HotForumBrand
+{
+    margin-left: 77px;
+    float: left;
+    width: 44px;
+    background: url(../frontImage/images/hottab.gif) no-repeat center;
+    height: 30px;
+}
+.HotForumList
+{
+    width: 133px;
+    float: left;
+    height: 260px;
+}
+.HotForumList li
+{
+    float: left;
+    width: 128px;
+    text-align: left;
+    list-style: none;
+}
+.HotForumList li a
+{
+    width: 100px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: block;
+    float: left;
+    line-height: 24px;
+}
+.morelink a
+{
+    width: 130px !important;
+    display: block;
+    float: right;
+    color: Red;
+    line-height: 18px !important;
+    text-align: right !important;
+    margin: 0px;
+    padding: 0px;
+}
+.HotForumList li img
+{
+    float: left;
+    padding: 2px;
+    padding-left: 3px;
+    padding-right: 5px;
+    vertical-align: middle;
+}
+.AnnounceListStyle li
+{
+    float: left;
+    width: 270px;
+    text-align: left;
+    list-style: none;
+}
+.AnnounceListStyle li a
+{
+    width: 250px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: block;
+    float: left;
+    line-height: 24px;
+}
+.AnnounceListStyle li img
+{
+    float: left;
+    padding-top: 11px;
+    padding-left: 3px;
+    padding-right: 5px;
+    vertical-align: middle;
+}
+
+.PostListStyle li
+{
+    float: left;
+    width: 270px;
+    text-align: left;
+    list-style: none;
+}
+.PostListStyle li a
+{
+    width: 178px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: block;
+    float: left;
+    line-height: 24px;
+}
+.PostListStyle li img
+{
+    float: left;
+    padding: 2px;
+    padding-left: 3px;
+    padding-right: 5px;
+    vertical-align: middle;
+}
+.PostListStyle li span
+{
+    float: right;
+    padding: 2px;
+    padding-left: 3px;
+    padding-right: 5px;
+    vertical-align: middle;
+    width: 60px;
+    text-align: right;
+}
+
+#HotPost
+{
+    width: 270px;
+    height: 275px;
+    border: solid 1px #AFC7CF;
+}
+#HotPostHead
+{
+    border-top: solid 1px #AFC7CF;
+    color: #003366;
+    line-height: 30px;
+    background: url(../frontImage/images/hotbg.gif) repeat-x center;
+    height: 30px;
+    width: 270px;
+    float: left;
+    text-align: left;
+}
+.HotPostTitle
+{
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.HotPostTab
+{
+    float: left;
+    color: #003366;
+    line-height: 28px;
+    height: 30px;
+    width: 44px;
+    text-align: center;
+    cursor: pointer;
+}
+.HotPostTabActive
+{
+    float: left;
+    color: #003366;
+    line-height: 28px;
+    background: url(../frontImage/images/hottab.gif) repeat-x center;
+    height: 30px;
+    width: 44px;
+    text-align: center;
+    cursor: pointer;
+}
+#HotPostList
+{
+}
+#ProductImage
+{
+    float: right;
+    width: 715px;
+    height: 307px; /*border: solid 1px #AFC7CF;*/
+    margin-bottom: 10px;
+    
+}
+#DefaultPageADDiv
+{
+    float: left;
+    width: 720px;
+    height: 35px; /*border: solid 1px #AFC7CF;*/
+    margin-bottom: 5px;
+    overflow: hidden;
+    
+}
+#DefaultPageADDiv ul li
+{
+
+    width: 720px;
+    overflow: hidden;
+}
+#PromotionADDiv
+{
+    float: left;
+    width: 800px;
+    height:120px;
+    overflow: hidden;
+}
+#PromotionADDiv li
+{
+    width: 800px;
+    overflow: hidden;
+}
+#PromotionADDiv li img
+{
+    margin-left:-7px;
+}
+#ProductImageHead
+{
+    color: #000;
+    height: 21px;
+    line-height: 21px;
+}
+#ProductImageList
+{
+    border-left: solid 1px #AFC7CF;
+    border-right: solid 1px #AFC7CF;
+    border-bottom: solid 1px #AFC7CF;
+    width: 713px;
+    height: 280px;
+    padding-top: 10px;
+
+}
+.PITabFirst
+{
+    float: left;
+    background: url(../frontImage/images/PIFirst.gif) repeat-x;
+    width: 142px;
+    cursor: pointer;
+}
+.PITabFirstActive
+{
+    float: left;
+    background: url(../frontImage/images/PIActive.gif) no-repeat;
+    width: 142px;
+    cursor: pointer;
+}
+.PITab
+{
+    float: left;
+    background: url(../frontImage/images/PI.gif) no-repeat;
+    width: 142px;
+    cursor: pointer;
+}
+.PITabActive
+{
+    float: left;
+    background: url(../frontImage/images/PIActive.gif) no-repeat;
+    width: 142px;
+    cursor: pointer;
+}
+.PITabLast
+{
+    float: left;
+    background: url(../frontImage/images/PILast.gif) no-repeat;
+    width: 142px;
+    cursor: pointer;
+}
+.PITabLastActive
+{
+    float: left;
+    background: url(../frontImage/images/PIActive.gif) no-repeat;
+    width: 142px;
+    cursor: pointer;
+}
+.PIBlank
+{
+    background: url(../frontImage/images/PIBlank.gif) repeat-x;
+}
+#PaiHang
+{
+    float: right;
+    width: 715px;
+    height: 430px;
+}
+
+#ChangXiao
+{
+    float: left;
+    width: 350px;
+    height: 430px;
+    border: solid 1px #6B8CC3;
+    background-color: #ECECF4;
+}
+.ProductHead
+{
+    background: url(../frontImage/images/ProductheadBg.gif) repeat-x center;
+    height: 29px;
+    font-size: 14px;
+    line-height: 29px;
+    font-weight: bold;
+    color: #FFF;
+    text-align: left;
+    padding-left: 10px;
+}
+.ProductList
+{
+    color: #000;
+    text-align: left;
+    padding-top: 10px;
+}
+.ProductList img
+{
+    border: 0px;
+}
+#GuanZhu
+{
+    float: right;
+    width: 350px;
+    height: 430px;
+    border: solid 1px #6B8CC3;
+    background-color: #ECECF4;
+}
+.TopProductListStyle li
+{
+    float: left;
+    width: 350px;
+    text-align: left;
+    list-style: none;
+    height: 22px;
+    line-height: 22px;
+    overflow: hidden;
+    word-break: break-all;
+}
+.TopProductListStyle li span
+{
+    color: Red;
+}
+
+
+#Footer
+{
+    float: right;
+    width: 1000px;
+    z-index:-100;
+}
+
+
+/*--------------商品大类页面布局--------------------*/
+#NavMenuDiv
+{
+    width: 160px;
+    float: left;
+    height: 100%;
+}
+
+#RootPageCenter
+{
+    width: 550px;
+    float: left;
+    padding-left: 9px;
+}
+#RootForumPageCenter
+{
+    width: 825px;
+    float: left;
+    padding-left: 12px;
+}
+
+#BrandList
+{
+    margin-bottom: 10px;
+}
+#BrandList ul
+{
+    text-align: center;
+    height: 176px;
+}
+#BrandList ul li
+{
+    float: left;
+    list-style: none;
+    margin: 0px auto;
+    padding-right: 3px;
+    padding-left: 4px;
+    overflow: hidden;
+    height: 176px;
+}
+#Seperator
+{
+    background: url(../frontImage/images/fourline.gif);
+    height: 25px;
+    line-height: 25px;
+}
+#Seperator img
+{
+    float: left;
+    padding-left: 50px;
+}
+#RootPageRight
+{
+    width: 270px;
+    float: right;
+    border-left: 1px solid #CDDDE1;
+    border-right: 1px solid #CDDDE1;
+    border-bottom: 1px solid #CDDDE1;
+}
+#RootPageRight .List
+{
+    height: 250px;
+}
+#FamousMan
+{
+    border-top: solid 1px #AFC7CF;
+    color: #003366;
+    line-height: 30px;
+    background: url(../frontImage/images/hotbg.gif) repeat-x center;
+    height: 30px;
+    width: 270px;
+    float: left;
+    text-align: left;
+}
+.ProductCategory ul
+{
+    list-style: none;
+    width: 100%;
+}
+
+#PRCDiv
+{
+    width: 267px;
+    float: left;
+    text-align: left;
+}
+#PRCDiv2
+{
+    margin-left: 10px;
+    width: 267px;
+    float: left;
+    text-align: left;
+}
+#PRCTitle
+{
+    height: 50px;
+    color: #205D89;
+    border-bottom: 1px solid #B0B0B0;
+    margin-bottom: 5px;
+}
+#PRCTitle img
+{
+    float: left;
+    line-height: 50px;
+}
+#PRCTitle h2
+{
+    float: left;
+    font-weight: bold;
+    font-size: 14px;
+    padding-top: 28px;
+    padding-left: 10px;
+}
+#PRCTitle span
+{
+    padding-top: 28px;
+    float: right;
+}
+.PRCList
+{
+    width: 267px;
+}
+.PRCList li
+{
+    line-height: 18px;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 267px;
+}
+#FamousManList
+{
+}
+#FamousManList div table
+{
+    float: left;
+    width: 267px;
+}
+#FamousListStyle
+{
+    text-align: left;
+    padding-top: 5px;
+    width: 267px;
+    list-style: none;
+}
+
+#FamousListStyle li
+{
+    float: left;
+    line-height: 18px;
+    overflow: hidden;
+    white-space: nowrap;
+    padding-left: 8px;
+}
+#FamousListStyle li a
+{
+    float: left;
+}
+#FamousListStyle li span
+{
+    float: right;
+    width: 80px;
+    text-align: right;
+}
+
+/*--------------商品小类页面布局--------------------*/
+#CPageTabDiv
+{
+    float: left;
+    width: 820px;
+    margin-left: 10px;
+}
+#CPageTabDiv div
+{
+    float: left;
+}
+#CPageTabDiv2
+{
+    float: left;
+    width: 820px;
+    margin-left: 13px;
+}
+#CPageTabDiv2 div
+{
+    float: left;
+}
+.CPageTab
+{
+    background: url(../frontImage/images/typetab.gif) no-repeat;
+    width: 68px;
+    height: 21px;
+    line-height: 21px;
+    color: Red;
+    padding-right: 1px;
+}
+.CPageTabBlue
+{
+    background: url(../frontImage/images/typetabblue.gif) no-repeat;
+    width: 68px;
+    height: 21px;
+    line-height: 21px;
+    color: #FFF;
+    padding-right: 1px;
+}
+.CPageTabBlue a
+{
+    color: #FFF;
+}
+.CPageTabBlue a:hover
+{
+    color: #FFF;
+}
+.CategoryNav
+{
+    padding-left: 20px;
+    color: #727272;
+    line-height: 21px;
+    clear: right;
+}
+#CSearchDiv
+{
+    float: left;
+    width: 825px;
+    border: 1px solid #C0C0C0;
+    height: 100%; /*background: url(../frontImage/images/csearchbg.gif) repeat-x;*/
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+#CSearchDiv .panel2
+{
+    float: left;
+    width: 825px;
+    background: url(../frontImage/images/PHeadBg.gif) repeat-x;
+    border-bottom: 1px solid #C0C0C0;
+    height: 28px;
+    line-height: 28px;
+}
+#CSearchDiv .panel2 img
+{
+    float: right;
+    vertical-align: middle;
+    padding-right: 20px;
+}
+#CSearchDiv table
+{
+}
+.ProductSearch
+{
+    background: url(../frontImage/images/psearch.gif) no-repeat;
+    width: 46px;
+    height: 21px;
+    border: 0px;
+    cursor: pointer;
+}
+
+#ProductDiv
+{
+    float: left;
+    width: 620px;
+    margin-top: 10px;
+    text-align: left;
+    margin-left: 10px;
+    margin-right: 5px;
+    height: 100%;
+    min-height: 500px;
+}
+
+
+#BrandProductDiv
+{
+    float: right;
+    width: 625px;
+    margin-top: 10px;
+    text-align: left;
+    margin-left: 10px;
+    margin-right: 5px;
+    height: 100%;
+    min-height: 500px;
+    list-style: none;
+}
+#PromotionProductDiv
+{
+    float: right;
+    width: 800px;
+    margin-top: 10px;
+    text-align: left;
+    margin-right: 5px;
+    height: 100%;
+    min-height: 500px;
+    list-style: none;
+}
+#BrandProductDiv ul
+{
+    width: 100%;
+    list-style: none;
+}
+#BrandProductDiv ul li
+{
+    border-bottom: 1px solid #CCCCCC;
+    padding: 2px;
+    height: 80px;
+}
+#BrandProductDiv ul li table
+{
+    width: 100%;
+}
+#SearchProductDiv
+{
+    float: right;
+    width: 825px;
+    margin-top: 10px;
+    text-align: left;
+    margin-left: 10px;
+    margin-right: 5px;
+    height: 100%;
+    min-height: 500px;
+    list-style: none;
+}
+#SearchProductDiv ul
+{
+    width: 100%;
+    list-style: none;
+}
+#SearchProductDiv ul li
+{
+    border-bottom: 1px solid #CCCCCC;
+    padding: 2px;
+    height: 80px;
+}
+#SearchProductDiv ul li table
+{
+    width: 100%;
+}
+#CPageRightDiv
+{
+    float: left;
+    width: 200px;
+    margin-top: 10px;
+    height: 100%;
+}
+#SaleTop
+{
+    border: 1px solid #AFC7CF;
+}
+#LastVisit
+{
+    border: 1px solid #AFC7CF;
+    margin-top: 10px;
+}
+#SaleTopHead
+{
+    background: url(../frontImage/images/cpheadbg.gif);
+    height: 24px;
+    color: Red;
+    line-height: 24px;
+    border-bottom: 1px solid #AFC7CF;
+    text-align: left;
+    padding-left: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+#LastVisitHead
+{
+    background: url(../frontImage/images/cpheadbg.gif);
+    height: 24px;
+    color: #000;
+    line-height: 24px;
+    border-bottom: 1px solid #AFC7CF;
+    text-align: left;
+    padding-left: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.CPRList li
+{
+    list-style: none;
+    line-height: 18px;
+    text-align: left;
+    white-space: normal;
+    overflow: hidden;
+    width: 188px;
+    white-space: normal;
+    word-break: break-all;
+    vertical-align: top;
+    padding-left:5px;
+    padding-right:5px;
+}
+.CPRList li a img
+{
+    padding:5px;
+     padding-left:59px;
+}
+.CPRLVList li
+{
+    list-style: none;
+    line-height: 18px;
+    text-align: center;
+    white-space: normal;
+    overflow: hidden;
+    width: 198px;
+    white-space: normal;
+    word-break: break-all;
+    vertical-align: top;
+}
+
+#ProductDiv ul
+{
+    width: 100%;
+    list-style: none;
+}
+#ProductDiv ul li
+{
+    border-bottom: 1px solid #CCCCCC;
+    padding: 2px;
+}
+#ProductDiv ul li table
+{
+    width: 100%;
+}
+.BuyButton
+{
+    background: url(../frontImage/images/buy.gif) no-repeat;
+    width: 53px;
+    height: 19px;
+    border: 0px;
+}
+.Pred
+{
+    color: Red;
+}
+.Pblack
+{
+    color: #000;
+}
+/*--------------商品浏览页面--------------------*/
+#ProductRightDiv
+{
+    float: right;
+    border: 1px solid #C0C0C0;
+}
+#PNavhead
+{
+    width: 825px;
+    background: url(../frontImage/images/PHeadBg.gif) repeat-x;
+    float: left;
+    border: 1px solid #C0C0C0;
+    height: 28px;
+    line-height: 28px;
+    text-align: left;
+    margin-left: 10px;
+}
+#PNavhead2
+{
+    width: 825px;
+    background: url(../frontImage/images/PHeadBg.gif) repeat-x;
+    float: left;
+    border: 1px solid #C0C0C0;
+    height: 28px;
+    line-height: 28px;
+    text-align: left;
+    margin-left: 13px;
+    margin-bottom:5px;
+}
+
+#PInfoDiv
+{
+    width: 825px;
+    float: left;
+    text-align: left;
+    margin-left: 10px;
+    border: solid 1px #CCC;
+    border-top: 0px;
+}
+#RelatedInfoDiv
+{
+    margin-top: 10px;
+    width: 825px;
+    float: left;
+    text-align: left;
+    margin-left: 10px;
+    height: 100%;
+}
+#RelatedInfo
+{
+    float: left;
+    text-align: left;
+    width: 825px;
+    color: #FFF;
+}
+.RelatedInfoTab
+{
+    float: left;
+    width: 107px;
+    text-align: center;
+    margin-right: 10px;
+    height: 27px;
+    line-height: 27px;
+    display: block;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-weight: bold;
+    background-image: url(frontImage/images/product/Product_tab.gif);
+    vertical-align: middle;
+}
+
+.RelatedInfoTabActive
+{
+    background-color: #FFFFFF;
+    float: left;
+    color: #0066DD;
+    width: 107px;
+    text-align: center;
+    margin-right: 10px;
+    height: 27px;
+    line-height: 27px;
+    display: block;
+    cursor: pointer;
+    font-weight: bold;
+    background-image: url(frontImage/images/product/Product_tabactive.gif);
+    vertical-align: middle;
+}
+.RelatedInfoTabActive img, .RelatedInfoTab img
+{
+    vertical-align: middle;
+    padding-right: 15px;
+}
+.RelatedInfoTabActive span, .RelatedInfoTab span
+{
+    vertical-align: middle;
+}
+#RelatedInfoList
+{
+    float: left;
+    border: 1px solid #2D98FF;
+    text-align: left;
+    width: 825px; /*height:100%;     min-height:250px;     height: expression( this.height < 250 ? "250px" : this.width+ "px" );*/
+   /* padding-top: 250px !important;*/
+    height: auto !important;
+    height: 250px;
+    min-height: 1px;
+    vertical-align: top;
+}
+#RelatedInfoList div
+{
+    margin: 6px;
+   /* margin-top: -250px;*/
+    vertical-align: top;
+    padding: 3px;
+}
+/*--------------分类菜单--------------------*/
+
+#NavMenu
+{
+    
+    z-index:100;
+    padding: 0px;
+    min-height:350px;
+    text-align: left;
+    border-collapse: collapse;
+    height:100%;
+}
+#NavMenu Div
+{
+    height: 30px;
+    line-height: 30px;
+    background-color: #FFF;
+    text-align: center;
+    border: #C0C7CB 1px solid;
+}
+#NavMenu A
+{
+    color: #00368f;
+    text-decoration: none;
+}
+
+
+#NavMenu UL
+{
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    margin: 0px;
+    padding-top: 0px;
+    list-style-type: none;
+    text-align: left;
+    border-left: #C0C7CB 1px solid;
+    border-right: #C0C7CB 1px solid;
+   
+}
+#NavMenu UL LI
+{
+    background: #fff;
+    border-collapse: collapse;
+    cursor: pointer;
+}
+#NavMenu UL LI H2
+{
+    border-bottom: #C0C7CB 1px solid;
+    padding-left: 8px;
+    font-weight: bold;
+    font-size: 12px;
+    background: #eff5ff;
+    margin: 0px;
+    color: #00368f;
+    line-height: 25px;
+    border-collapse: collapse;
+}
+#NavMenu UL LI UL
+{
+    display: none;
+    border:0px;
+}
+#NavMenu UL LI UL LI
+{
+    padding-left: 8px;
+    border-collapse: collapse;
+    list-style: none !important;
+    line-height: 20px;
+    padding-left: 20px;
+}
+
+#NavMenu UL LI UL LI.lastchild
+{
+     border-bottom: #C0C7CB 1px solid;
+}
+
+#BrandNavMenuDiv
+{
+    width: 160px;
+    float: left;
+    height: 100%;
+    min-height:500px;
+}
+
+
+#BrandNavMenu
+{
+    
+    z-index:100;
+    padding: 0px;
+    text-align: left;
+    border-collapse: collapse;
+    
+}
+#BrandNavMenu Div
+{
+    height: 30px;
+    line-height: 30px;
+    background-color: #FFF;
+    text-align: center;
+    border: #C0C7CB 1px solid;
+}
+#BrandNavMenu A
+{
+    color: #00368f;
+    text-decoration: none;
+}
+
+
+#BrandNavMenu UL
+{
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    margin: 0px;
+    padding-top: 0px;
+    list-style-type: none;
+    text-align: left;
+    border-left: #C0C7CB 1px solid;
+    border-right: #C0C7CB 1px solid;
+   
+}
+#BrandNavMenu UL LI
+{
+    background: #fff;
+    border-collapse: collapse;
+    cursor: pointer;
+}
+#BrandNavMenu UL LI H2
+{
+    border-bottom: #C0C7CB 1px solid;
+    padding-left: 8px;
+    font-weight: bold;
+    font-size: 12px;
+    background: #eff5ff;
+    margin: 0px;
+    color: #00368f;
+    line-height: 25px;
+    border-collapse: collapse;
+}
+#BrandNavMenu UL LI UL
+{
+    display: none;
+    border:0px;
+}
+#BrandNavMenu UL LI UL LI
+{
+    padding-left: 8px;
+    border-collapse: collapse;
+    list-style: none !important;
+    line-height: 20px;
+    padding-left: 20px;
+}
+
+#BrandNavMenu UL LI UL LI.lastchild
+{
+     border-bottom: #C0C7CB 1px solid;
+}
+
+#SearchMenu
+{
+    border: #C0C7CB 1px solid;
+    border-top: 0px;
+    padding: 0px;
+    background: #CCE6F5;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+#SearchMenu A
+{
+    color: #00368f;
+    text-decoration: none;
+}
+#SearchMenu UL
+{
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    margin: 0px;
+    padding-top: 0px;
+    list-style-type: none;
+    text-align: left;
+    height: 20px;
+    line-height: 20px;
+}
+#SearchMenu UL LI
+{
+    background: #fff;
+    border-collapse: collapse;
+    cursor: pointer;
+    height: 20px;
+    line-height: 20px;
+}
+#SearchMenu UL LI H2
+{
+    border-top: #C0C7CB 1px solid;
+    padding-left: 8px;
+    font-weight: bold;
+    font-size: 12px;
+    background: #eff5ff;
+    margin: 0px;
+    color: #00368f;
+    line-height: 25px;
+    border-collapse: collapse;
+    cursor: default;
+}
+#SearchMenu UL LI UL
+{
+}
+
+
+.Collapse
+{
+    display: none !important;
+}
+.Expand
+{
+    display: block !important;
+}
+#ForumDiv
+{
+    width: 825px;
+}
+#divForum
+{
+    width: 825px;
+    float: right;
+}
+
+#divFull
+{
+    width: 1000px;
+}
+.DefaultHotTable
+{
+    border: solid 1px #CCC;
+    margin-top: 2px;
+    margin-bottom: 3px;
+    border-collapse: collapse;
+    width: 340px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.DefaultHotTableTD
+{
+    background: #FFFFFF;
+    white-space: normal;
+    word-break: break-all;
+    overflow: hidden;
+}
+#imgBanner
+{
+    max-width: 800px;
+    width: expression( this.width > 800 ?     "800px" : this.width+ "px" );
+}
+#CBannerDiv
+{
+    float: left;
+    width: 800px;
+    height: 100%;
+    text-align: left;
+    margin-top: 5px;
+}
+#CBannerDiv img
+{
+    border: solid 1px #CCCCCC;
+}
+.modalBackground
+{
+    background-color: Gray;
+    filter: alpha(opacity=70);
+    opacity: 0.7;
+}
+
+.modalPopup
+{
+    background-color: #C8E5FF;
+    border-width: 3px;
+    border-style: solid;
+    border-color: Gray;
+    padding: 3px;
+    width: 250px;
+}
+.PingFenProgress
+{
+    background: url(frontImage/images/product/processbg.gif);
+}
+.ProductInfoTable td
+{
+    white-space: normal;
+    word-break: break-all;
+    overflow: hidden;
+}
+
+#BrandDesc
+{
+    width: 100%;
+    text-align: left;
+    background-color: #F1F5F8;
+}
+#NavMenuLogo
+{
+    background-color: #F1F5F8;
+    padding-top: 10px;
+}
+
+#Cart-list-nav
+{
+    clear: both;
+    display: inline-block;
+    border: 1px solid #B4C9E0; /*--------------------特别说明:如果更改论坛中大的边框样式,可以在此更改---------------------------*/
+    margin-top: 6px;
+    min-width: 750px;
+    width: 100%;
+    border: solid 1px #ccc;
+}
+#AnnounceRightDiv
+{
+    float: right;
+    width: 270px;
+    background-color: #F1F5F8;
+}
+#AnnounceList
+{
+    width: 270px;
+    height: 100%;
+    min-height: 300px;
+    border: solid 1px #AFC7CF;
+    margin-bottom: 10px;
+    margin: 0xp;
+}
+#AnnounceCenterDiv
+{
+    float: left;
+    width: 720px;
+}
+#Announce-list-nav
+{
+    clear: both;
+    display: inline-block;
+    border: 1px solid #B4C9E0;
+    max-width: 720px;
+    width: 100%;
+}
+.compareTable
+{
+    border: solid 1px #CCC;
+    border-collapse: collapse;
+}
+.compareTitle
+{
+    font-weight: bold;
+    letter-spacing: 2px;
+    background-color: #EEE;
+    height: 25px;
+    line-height: 25px;
+    text-align: left;
+    padding-left: 10px;
+    border: solid 1px #CCC;
+}
+.compareContent
+{
+    border: solid 1px #CCC;
+    padding: 5px;
+    overflow: hidden;
+}
+#topictype
+{
+    margin-right: 6px;
+    float: left;
+    margin-top: 7px;
+    line-height: 20px;
+    vertical-align: middle;
+    color: #fff;
+    padding-left: 10px;
+}
+#topictype a
+{
+    font-weight: normal;
+    color: yellow;
+}
+#topictype img
+{
+    padding: 5px;
+}
